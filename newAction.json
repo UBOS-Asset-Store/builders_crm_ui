@@ -518,7 +518,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-11-08T09:31:03.416Z",
-        "updatedAt": "2024-08-09T09:23:47.413Z",
+        "updatedAt": "2024-08-09T15:21:14.028Z",
         "deleted": false,
         "policies": [
             {
@@ -542,7 +542,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/createUser"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -572,7 +572,7 @@
                         "value": true
                     }
                 ],
-                "path": "/createUser"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -606,7 +606,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-10-14T10:51:21.173Z",
-        "updatedAt": "2024-08-09T09:23:49.670Z",
+        "updatedAt": "2024-08-09T15:21:35.942Z",
         "deleted": false,
         "policies": [
             {
@@ -630,7 +630,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/deleteUser"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -659,7 +659,7 @@
                         "value": true
                     }
                 ],
-                "path": "/deleteUser",
+                "path": "",
                 "body": "{\n\t\"_id\": \"{{Table1.selectedRow._id}}\"\n}"
             },
             "dynamicBindingPathList": [
@@ -687,7 +687,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T15:09:27.661Z",
-        "updatedAt": "2024-08-09T09:24:02.611Z",
+        "updatedAt": "2024-08-09T15:21:40.265Z",
         "deleted": false,
         "policies": [
             {
@@ -711,7 +711,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/editUserRole"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -741,7 +741,7 @@
                         "value": true
                     }
                 ],
-                "path": "/editUserRole"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -769,7 +769,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T15:05:45.060Z",
-        "updatedAt": "2024-08-09T09:24:04.939Z",
+        "updatedAt": "2024-08-09T15:21:48.947Z",
         "deleted": false,
         "policies": [
             {
@@ -793,7 +793,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getAllRoles"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -822,7 +822,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getAllRoles"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -845,7 +845,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T15:02:12.192Z",
-        "updatedAt": "2024-08-09T09:24:07.138Z",
+        "updatedAt": "2024-08-09T15:21:53.066Z",
         "deleted": false,
         "policies": [
             {
@@ -869,7 +869,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getUsers"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -893,7 +893,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getUsers"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -1740,7 +1740,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T14:07:56.350Z",
-        "updatedAt": "2024-08-09T09:46:06.521Z",
+        "updatedAt": "2024-08-09T15:19:59.824Z",
         "deleted": false,
         "policies": [
             {
@@ -1764,7 +1764,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/createChildModule"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -1794,7 +1794,7 @@
                         "value": true
                     }
                 ],
-                "path": "/createChildModule"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -1823,7 +1823,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T12:49:55.580Z",
-        "updatedAt": "2024-08-09T09:22:39.817Z",
+        "updatedAt": "2024-08-09T15:20:03.593Z",
         "deleted": false,
         "policies": [
             {
@@ -1847,7 +1847,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/createChildModule"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -1876,7 +1876,7 @@
                         "value": true
                     }
                 ],
-                "path": "/createChildModule",
+                "path": "",
                 "body": "{\n\t\"name\": \"{{name_field.text}}\",\n\t\"position\": {{position_field.text}},\n\t\"icon\": \"{{icon_field.text}}\"\n}"
             },
             "dynamicBindingPathList": [
@@ -1906,7 +1906,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T13:08:42.296Z",
-        "updatedAt": "2024-08-09T10:10:49.644Z",
+        "updatedAt": "2024-08-09T15:20:15.118Z",
         "deleted": false,
         "policies": [
             {
@@ -1977,7 +1977,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T12:54:09.638Z",
-        "updatedAt": "2024-08-09T09:46:41.267Z",
+        "updatedAt": "2024-08-09T15:20:21.312Z",
         "deleted": false,
         "policies": [
             {
@@ -2001,7 +2001,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getModules"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -2025,7 +2025,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getModules"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -2048,7 +2048,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T14:13:12.277Z",
-        "updatedAt": "2024-08-09T09:22:43.351Z",
+        "updatedAt": "2024-08-09T15:20:07.635Z",
         "deleted": false,
         "policies": [
             {
@@ -2072,7 +2072,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/deleteChildModule"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -2102,7 +2102,7 @@
                         "value": true
                     }
                 ],
-                "path": "/deleteChildModule"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -5105,7 +5105,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T14:52:15.502Z",
-        "updatedAt": "2024-08-09T09:23:29.758Z",
+        "updatedAt": "2024-08-09T15:20:37.691Z",
         "deleted": false,
         "policies": [
             {
@@ -5129,7 +5129,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/addModuleToRole"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -5158,7 +5158,7 @@
                         "value": true
                     }
                 ],
-                "path": "/addModuleToRole",
+                "path": "",
                 "body": "{\n\t\"_id\":\"{{roles_table.selectedRow._id}}\",\n\t\"moduleValue\": {{modules_field.selectedOptionValues}},\n\t\"moduleName\": {{modules_field.selectedOptionLabels}},\n\t\"options\": {{options_switch.selectedValues}}\n}"
             },
             "dynamicBindingPathList": [
@@ -5189,7 +5189,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T14:26:27.553Z",
-        "updatedAt": "2024-08-09T09:23:31.514Z",
+        "updatedAt": "2024-08-09T15:20:41.593Z",
         "deleted": false,
         "policies": [
             {
@@ -5213,7 +5213,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/createRole"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -5243,7 +5243,7 @@
                         "value": true
                     }
                 ],
-                "path": "/createRole"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -5270,7 +5270,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T14:49:08.307Z",
-        "updatedAt": "2024-08-09T09:23:36.910Z",
+        "updatedAt": "2024-08-09T15:20:59.056Z",
         "deleted": false,
         "policies": [
             {
@@ -5294,7 +5294,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getModules"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -5318,7 +5318,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getModules"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -5341,7 +5341,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T14:27:18.685Z",
-        "updatedAt": "2024-08-09T09:23:38.930Z",
+        "updatedAt": "2024-08-09T15:21:05.528Z",
         "deleted": false,
         "policies": [
             {
@@ -5365,7 +5365,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getRoles"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -5394,7 +5394,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getRoles"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -6170,7 +6170,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-11-18T16:51:48.152Z",
-        "updatedAt": "2024-08-09T09:23:17.974Z",
+        "updatedAt": "2024-08-09T15:20:29.475Z",
         "deleted": false,
         "policies": [
             {
@@ -6194,7 +6194,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/updateParentModule"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -6224,7 +6224,7 @@
                         "value": true
                     }
                 ],
-                "path": "/updateParentModule"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -6254,7 +6254,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-11-18T16:55:13.835Z",
-        "updatedAt": "2024-08-09T09:22:45.097Z",
+        "updatedAt": "2024-08-09T15:20:12.374Z",
         "deleted": false,
         "policies": [
             {
@@ -6278,7 +6278,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/deleteModule"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -6308,7 +6308,7 @@
                         "value": true
                     }
                 ],
-                "path": "/deleteModule"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -6335,7 +6335,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-11-18T17:04:12.998Z",
-        "updatedAt": "2024-08-09T09:23:10.928Z",
+        "updatedAt": "2024-08-09T15:20:25.389Z",
         "deleted": false,
         "policies": [
             {
@@ -6359,7 +6359,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/updateChildModule"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -6389,7 +6389,7 @@
                         "value": true
                     }
                 ],
-                "path": "/updateChildModule"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -6418,7 +6418,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-11-22T10:57:53.258Z",
-        "updatedAt": "2024-08-09T09:23:35.353Z",
+        "updatedAt": "2024-08-09T15:20:54.328Z",
         "deleted": false,
         "policies": [
             {
@@ -6442,7 +6442,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/deleteRole"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -6471,7 +6471,7 @@
                         "value": true
                     }
                 ],
-                "path": "/deleteRole",
+                "path": "",
                 "body": "{\n\t\"_id\": \"{{roles_table.selectedRow._id}}\"\n}"
             },
             "dynamicBindingPathList": [
@@ -6499,7 +6499,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-11-22T13:23:38.662Z",
-        "updatedAt": "2024-08-09T09:23:33.169Z",
+        "updatedAt": "2024-08-09T15:20:45.642Z",
         "deleted": false,
         "policies": [
             {
@@ -6523,7 +6523,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/deleteModuleFromRole"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -6552,7 +6552,7 @@
                         "value": true
                     }
                 ],
-                "path": "/deleteModuleFromRole",
+                "path": "",
                 "body": "{\n\t\"_id\": \"{{roles_table.selectedRow._id}}\",\n\t\"moduleId\": {{modules_field_delete.selectedOptionValues}}\n}"
             },
             "dynamicBindingPathList": [
@@ -6585,7 +6585,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getProjects?page={{ListCollapse11.pageNo}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -6599,12 +6599,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "page",
-                        "value": "{{ListCollapse11.pageNo}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -6614,14 +6609,14 @@
                         "value": true
                     }
                 ],
-                "path": "/getProjects"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
-                    "key": "datasourceUrl"
+                    "key": "queryParameters[0].value"
                 },
                 {
-                    "key": "queryParameters[0].value"
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -6634,7 +6629,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-05T15:57:16.892Z",
-        "updatedAt": "2024-08-09T09:25:03.274Z",
+        "updatedAt": "2024-08-09T15:22:07.446Z",
         "deleted": false,
         "policies": [
             {
@@ -6665,7 +6660,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getProjects"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -6689,7 +6684,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getProjects"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -6705,7 +6700,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-05T19:58:51.967Z",
-        "updatedAt": "2024-08-09T09:25:36.386Z",
+        "updatedAt": "2024-08-09T15:22:50.214Z",
         "deleted": false,
         "policies": [
             {
@@ -6736,7 +6731,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/addUser"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -6765,7 +6760,7 @@
                         "value": true
                     }
                 ],
-                "path": "/addUser",
+                "path": "",
                 "body": "{\n\t\"email\": {{JSON.stringify(InputUserEmail_add.text)}},\n\t\"role\": {{JSON.stringify(SelectUserRole_add.selectedOptionValue)}}\n}"
             },
             "dynamicBindingPathList": [
@@ -6782,13 +6777,13 @@
                 "main.env.nr",
                 "JSON.stringify(InputUserEmail_add.text)",
                 "JSON.stringify(SelectUserRole_add.selectedOptionValue)",
-                "main.env.nr,2023-11-14T21:05:26.110Z,2023-11-23T15:44:06.892Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr"
+                "main.env.nr,2023-11-14T21:05:26.110Z,2024-08-09T15:22:25.422Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,{{main.env.nr"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-14T21:05:26.110Z",
-        "updatedAt": "2024-08-09T09:25:22.479Z",
+        "updatedAt": "2024-08-09T15:22:28.250Z",
         "deleted": false,
         "policies": [
             {
@@ -6819,7 +6814,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getRoles"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -6843,7 +6838,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getRoles"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -6859,7 +6854,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-15T20:52:01.731Z",
-        "updatedAt": "2024-08-09T09:25:39.777Z",
+        "updatedAt": "2024-08-09T15:22:59.985Z",
         "deleted": false,
         "policies": [
             {
@@ -6890,7 +6885,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getProjectRoles"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -6914,7 +6909,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getProjectRoles"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -6930,7 +6925,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-15T20:53:55.199Z",
-        "updatedAt": "2024-08-09T09:25:33.878Z",
+        "updatedAt": "2024-08-09T15:22:46.058Z",
         "deleted": false,
         "policies": [
             {
@@ -6961,7 +6956,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getHistoryById"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -6985,7 +6980,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getHistoryById"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -7001,7 +6996,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-15T21:05:32.972Z",
-        "updatedAt": "2024-08-09T09:25:31.743Z",
+        "updatedAt": "2024-08-09T15:22:40.936Z",
         "deleted": false,
         "policies": [
             {
@@ -7032,7 +7027,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getAllUsers"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -7056,7 +7051,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getAllUsers"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -7072,7 +7067,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-15T21:30:55.003Z",
-        "updatedAt": "2024-08-09T09:25:42.907Z",
+        "updatedAt": "2024-08-09T15:23:04.528Z",
         "deleted": false,
         "policies": [
             {
@@ -7103,7 +7098,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getUsers"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -7127,7 +7122,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getUsers"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -7143,7 +7138,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-16T17:44:22.640Z",
-        "updatedAt": "2024-08-09T09:25:08.984Z",
+        "updatedAt": "2024-08-09T15:22:15.817Z",
         "deleted": false,
         "policies": [
             {
@@ -7174,7 +7169,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/createProject"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -7204,7 +7199,7 @@
                         "value": true
                     }
                 ],
-                "path": "/createProject"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -7233,7 +7228,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-16T20:33:14.544Z",
-        "updatedAt": "2024-08-09T09:25:00.453Z",
+        "updatedAt": "2024-08-09T15:22:02.735Z",
         "deleted": false,
         "policies": [
             {
@@ -7340,7 +7335,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getData?_id={{Table1.selectedRow._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -7354,12 +7349,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{Table1.selectedRow._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -7369,17 +7359,17 @@
                         "value": true
                     }
                 ],
-                "path": "/getData"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
                     "key": "path"
                 },
                 {
-                    "key": "datasourceUrl"
+                    "key": "queryParameters[0].value"
                 },
                 {
-                    "key": "queryParameters[0].value"
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -7392,7 +7382,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-19T12:51:20.844Z",
-        "updatedAt": "2024-08-09T09:25:29.812Z",
+        "updatedAt": "2024-08-09T15:22:36.344Z",
         "deleted": false,
         "policies": [
             {
@@ -7423,7 +7413,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/updateUser?_id={{Table1.selectedRow._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -7442,12 +7432,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{Table1.selectedRow._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "body": "{\n\t\"email\":{{JSON.stringify(Email_update.text)}},\n\t\"firstname\":{{JSON.stringify(FirstName_update.text)}},\n\t\"lastname\":{{JSON.stringify(SecondName_update.text)}},\n\t\"dialCode\":{{JSON.stringify(PhoneInput1.dialCode)}},\n\t\"phone\":{{JSON.stringify(PhoneInput1.text)}},\n\t\"company\":{{JSON.stringify(Company_update.text)}},\n\t\"role\":{{JSON.stringify(Select_role_update.selectedOptionValue)}}\n}",
                 "bodyFormData": [],
                 "formData": {
@@ -7458,7 +7443,7 @@
                         "value": true
                     }
                 ],
-                "path": "/updateUser"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -7491,7 +7476,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-19T14:46:22.403Z",
-        "updatedAt": "2024-08-09T09:25:45.259Z",
+        "updatedAt": "2024-08-09T15:23:08.952Z",
         "deleted": false,
         "policies": [
             {
@@ -7522,7 +7507,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/loginG?code={{main.URL.queryParams.code}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -7541,12 +7526,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "code",
-                        "value": "{{main.URL.queryParams.code}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -7556,7 +7536,7 @@
                         "value": true
                     }
                 ],
-                "path": "/loginG",
+                "path": "",
                 "body": ""
             },
             "dynamicBindingPathList": [
@@ -7564,10 +7544,10 @@
                     "key": "path"
                 },
                 {
-                    "key": "datasourceUrl"
+                    "key": "queryParameters[0].value"
                 },
                 {
-                    "key": "queryParameters[0].value"
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -7575,13 +7555,13 @@
             "jsonPathKeys": [
                 "main.env.nr",
                 "main.URL.queryParams.code",
-                "main.env.nr,2023-11-21T13:06:11.363Z,2023-12-12T11:11:01.918Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr,2023-11-21T13:06:11.363Z,2024-02-02T13:12:23.786Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr"
+                "main.env.nr,2023-11-21T13:06:11.363Z,2024-08-09T15:25:48.850Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,{{main.env.nr,2023-11-21T13:06:11.363Z,2024-08-09T15:25:51.644Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,{{main.env.nr"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-21T13:06:11.363Z",
-        "updatedAt": "2024-08-09T09:28:09.753Z",
+        "updatedAt": "2024-08-09T15:30:58.738Z",
         "deleted": false,
         "policies": [
             {
@@ -7612,7 +7592,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getProjects2?_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -7626,12 +7606,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -7641,14 +7616,14 @@
                         "value": true
                     }
                 ],
-                "path": "/getProjects2"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
-                    "key": "datasourceUrl"
+                    "key": "queryParameters[0].value"
                 },
                 {
-                    "key": "queryParameters[0].value"
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -7661,7 +7636,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-22T17:23:58.517Z",
-        "updatedAt": "2024-08-09T09:27:04.605Z",
+        "updatedAt": "2024-08-09T15:24:43.557Z",
         "deleted": false,
         "policies": [
             {
@@ -7692,7 +7667,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/createCounterparties"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -7721,7 +7696,7 @@
                         "value": true
                     }
                 ],
-                "path": "/createCounterparties",
+                "path": "",
                 "body": "{\n\t\"name\": {{JSON.stringify(name_contributionAdd.text)}},\n\t\"type\": {{JSON.stringify(type_contributionAdd.selectedOptionValue)}},\n\t\"director\": {{JSON.stringify(directorName_contributionAdd.text)}},\n\t\"dialCode\":{{JSON.stringify(phone_contributionAdd.dialCode)}},\n\t\"phone\": {{JSON.stringify(phone_contributionAdd.text)}},\n\t\"email\": {{JSON.stringify(mail_contributionAdd.text)}},\n\t\"website\": {{JSON.stringify(webpage_contributionAdd.text)}},\n\t\"section\": {{JSON.stringify(section_contributionAdd.text)}}\n\t\n}"
             },
             "dynamicBindingPathList": [
@@ -7749,7 +7724,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-23T11:30:54.670Z",
-        "updatedAt": "2024-08-09T09:28:17.657Z",
+        "updatedAt": "2024-08-09T15:26:03.869Z",
         "deleted": false,
         "policies": [
             {
@@ -7780,7 +7755,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/updateCounterparties?_id={{contributions.selectedRow._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -7799,12 +7774,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{contributions.selectedRow._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -7814,7 +7784,7 @@
                         "value": true
                     }
                 ],
-                "path": "/updateCounterparties",
+                "path": "",
                 "body": "{\n\t\"name\":{{JSON.stringify(name_contributionUpdate.text)}},\n\t\"type\": {{JSON.stringify(type_contributionUpdate.selectedOptionValue)}},\n\t\"director\": {{JSON.stringify(directorName_contributionUpdat.text)}},\n\t\"dialCode\":{{JSON.stringify(phone_contributionUpdate.dialCode)}},\n\t\"phone\": {{JSON.stringify(phone_contributionUpdate.text)}},\n\t\"email\": {{JSON.stringify(mail_contributionUpdate.text)}},\n\t\"website\": {{JSON.stringify(webpage_contributionUpdate.text)}},\n\t\"section\": {{JSON.stringify(section_contributionUpdate.text)}}\n}"
             },
             "dynamicBindingPathList": [
@@ -7825,10 +7795,10 @@
                     "key": "path"
                 },
                 {
-                    "key": "datasourceUrl"
+                    "key": "queryParameters[0].value"
                 },
                 {
-                    "key": "queryParameters[0].value"
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -7844,13 +7814,13 @@
                 "JSON.stringify(mail_contributionUpdate.text)",
                 "JSON.stringify(webpage_contributionUpdate.text)",
                 "JSON.stringify(section_contributionUpdate.text)",
-                "main.env.nr,JSON.stringify(phone_contributionUpdate.dialCode),2023-11-23T11:32:30.109Z,2024-01-15T11:02:46.412Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr,2023-11-23T11:32:30.109Z,2024-01-15T11:02:50.600Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr"
+                "main.env.nr,2023-11-23T11:32:30.109Z,2024-08-09T09:28:28.846Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr,2023-11-23T11:32:30.109Z,2024-08-09T15:26:16.999Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,{{main.env.nr"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-23T11:32:30.109Z",
-        "updatedAt": "2024-08-09T09:28:28.846Z",
+        "updatedAt": "2024-08-09T15:26:19.547Z",
         "deleted": false,
         "policies": [
             {
@@ -7881,7 +7851,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getCounterparties"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -7905,7 +7875,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getCounterparties"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -7921,7 +7891,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-23T11:33:40.971Z",
-        "updatedAt": "2024-08-09T09:28:24.247Z",
+        "updatedAt": "2024-08-09T15:26:11.935Z",
         "deleted": false,
         "policies": [
             {
@@ -7952,7 +7922,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/deleteCounterparties?_id={{contributions.selectedRow._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -7971,12 +7941,7 @@
                         "value": "text/plain"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{contributions.selectedRow._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "body": "",
                 "bodyFormData": [],
                 "formData": {
@@ -7987,7 +7952,7 @@
                         "value": true
                     }
                 ],
-                "path": "/deleteCounterparties"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -8010,7 +7975,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-23T11:34:58.465Z",
-        "updatedAt": "2024-08-09T09:28:19.816Z",
+        "updatedAt": "2024-08-09T15:26:07.789Z",
         "deleted": false,
         "policies": [
             {
@@ -8041,7 +8006,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getProjects1"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -8065,7 +8030,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getProjects1"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -8081,7 +8046,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-23T13:54:18.504Z",
-        "updatedAt": "2024-08-09T09:25:06.952Z",
+        "updatedAt": "2024-08-09T15:22:11.531Z",
         "deleted": false,
         "policies": [
             {
@@ -8112,7 +8077,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getProjects1"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -8136,7 +8101,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getProjects1"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -8152,7 +8117,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-23T21:33:22.013Z",
-        "updatedAt": "2024-08-09T09:28:26.135Z",
+        "updatedAt": "2024-08-09T15:26:15.714Z",
         "deleted": false,
         "policies": [
             {
@@ -8183,7 +8148,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getUsers"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -8207,7 +8172,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getUsers"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -8223,7 +8188,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-23T22:08:35.749Z",
-        "updatedAt": "2024-08-09T09:28:57.566Z",
+        "updatedAt": "2024-08-09T15:26:51.992Z",
         "deleted": false,
         "policies": [
             {
@@ -8254,7 +8219,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getProjects2?_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -8268,12 +8233,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -8283,7 +8243,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getProjects2"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -8291,6 +8251,9 @@
                 },
                 {
                     "key": "queryParameters[0].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -8303,7 +8266,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-23T22:09:20.950Z",
-        "updatedAt": "2024-08-09T09:28:53.797Z",
+        "updatedAt": "2024-08-09T15:26:47.446Z",
         "deleted": false,
         "policies": [
             {
@@ -8410,7 +8373,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getProjects1"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -8434,7 +8397,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getProjects1"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -8450,7 +8413,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-23T23:16:04.710Z",
-        "updatedAt": "2024-08-09T09:25:38.377Z",
+        "updatedAt": "2024-08-09T15:22:54.574Z",
         "deleted": false,
         "policies": [
             {
@@ -8520,7 +8483,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getProjectsProfile?_id={{main.user.auth_module.user.info.user._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -8534,12 +8497,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.user.auth_module.user.info.user._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -8549,14 +8507,14 @@
                         "value": true
                     }
                 ],
-                "path": "/getProjectsProfile"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
-                    "key": "datasourceUrl"
+                    "key": "queryParameters[0].value"
                 },
                 {
-                    "key": "queryParameters[0].value"
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -8569,7 +8527,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-23T23:43:32.806Z",
-        "updatedAt": "2024-08-09T09:30:43.604Z",
+        "updatedAt": "2024-08-09T15:29:34.749Z",
         "deleted": false,
         "policies": [
             {
@@ -8600,7 +8558,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/updateProfile?id={{main.user.auth_module.user.info.user._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -8619,12 +8577,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "id",
-                        "value": "{{main.user.auth_module.user.info.user._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "body": "{\n\t\"email\":{{JSON.stringify(email__profile.text)}},\n\t\"firstname\":{{JSON.stringify(firstName__profile.text)}},\n\t\"lastname\":{{JSON.stringify(lastName__profile.text)}},\n\t\"dialCode\":{{JSON.stringify(phone__profiles.dialCode)}},\n\t\"phone\":{{JSON.stringify(phone__profiles.text)}},\n\t\"company\":{{JSON.stringify(company__profile.text)}},\n\t\"googleAvatar\": {{JSON.stringify(getUserAvatar.data[0].googleAvatar)}},\n\t\"avatar\": {{JSON.stringify(main.store.avatar)}}\n}\n",
                 "bodyFormData": [],
                 "formData": {
@@ -8635,20 +8588,20 @@
                         "value": true
                     }
                 ],
-                "path": "/updateProfile"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
                     "key": "body"
                 },
                 {
-                    "key": "datasourceUrl"
-                },
-                {
                     "key": "path"
                 },
                 {
                     "key": "queryParameters[0].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -8669,7 +8622,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-23T23:45:23.939Z",
-        "updatedAt": "2024-08-09T09:30:49.111Z",
+        "updatedAt": "2024-08-09T15:29:53.728Z",
         "deleted": false,
         "policies": [
             {
@@ -8700,7 +8653,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getProjectManagers_team?_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -8714,12 +8667,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -8729,7 +8677,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getProjectManagers_team"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -8752,7 +8700,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-24T10:56:47.319Z",
-        "updatedAt": "2024-08-09T09:28:48.533Z",
+        "updatedAt": "2024-08-09T15:26:42.381Z",
         "deleted": false,
         "policies": [
             {
@@ -8783,7 +8731,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getProgectsWatchers_team?_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -8797,12 +8745,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -8812,7 +8755,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getProgectsWatchers_team"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -8835,7 +8778,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-24T11:09:41.900Z",
-        "updatedAt": "2024-08-09T09:28:44.225Z",
+        "updatedAt": "2024-08-09T15:26:34.426Z",
         "deleted": false,
         "policies": [
             {
@@ -8866,7 +8809,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/deleteWatcher_team?_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -8885,12 +8828,7 @@
                         "value": "text/plain"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "body": "{\n\"_id\":{{JSON.stringify( ListWatchers_team.selectedRow._id)}}\n}",
                 "bodyFormData": [],
                 "formData": {
@@ -8901,7 +8839,7 @@
                         "value": true
                     }
                 ],
-                "path": "/deleteWatcher_team"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -8911,10 +8849,10 @@
                     "key": "queryParameters[0].value"
                 },
                 {
-                    "key": "datasourceUrl"
+                    "key": "body"
                 },
                 {
-                    "key": "body"
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -8928,7 +8866,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-24T11:27:43.856Z",
-        "updatedAt": "2024-08-09T09:28:40.190Z",
+        "updatedAt": "2024-08-09T15:26:30.677Z",
         "deleted": false,
         "policies": [
             {
@@ -8959,7 +8897,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/deleteManager_team?_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -8978,12 +8916,7 @@
                         "value": "text/plain"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "body": "{\n\"_id\":{{JSON.stringify( ListManagers_team.selectedItem._id)}}\n}",
                 "bodyFormData": [],
                 "formData": {
@@ -8994,7 +8927,7 @@
                         "value": true
                     }
                 ],
-                "path": "/deleteManager_team"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -9004,10 +8937,10 @@
                     "key": "queryParameters[0].value"
                 },
                 {
-                    "key": "datasourceUrl"
+                    "key": "body"
                 },
                 {
-                    "key": "body"
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -9021,7 +8954,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-24T11:30:51.194Z",
-        "updatedAt": "2024-08-09T09:28:38.107Z",
+        "updatedAt": "2024-08-09T15:26:26.843Z",
         "deleted": false,
         "policies": [
             {
@@ -9052,7 +8985,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/updateProjectManagers_team?_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -9071,12 +9004,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -9087,7 +9015,7 @@
                     }
                 ],
                 "body": "",
-                "path": "/updateProjectManagers_team"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -9095,6 +9023,9 @@
                 },
                 {
                     "key": "queryParameters[0].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -9107,7 +9038,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-24T11:31:34.230Z",
-        "updatedAt": "2024-08-09T09:28:59.507Z",
+        "updatedAt": "2024-08-09T15:26:59.107Z",
         "deleted": false,
         "policies": [
             {
@@ -9138,7 +9069,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/updateProjectWatchers_team?_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -9157,12 +9088,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "body": "{\n\t\"userId\":{{JSON.stringify(List_watchers_add_team.selectedRow._id)}}\n}",
                 "bodyFormData": [],
                 "formData": {
@@ -9173,20 +9099,20 @@
                         "value": true
                     }
                 ],
-                "path": "/updateProjectWatchers_team"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
                     "key": "path"
                 },
                 {
-                    "key": "datasourceUrl"
-                },
-                {
                     "key": "queryParameters[0].value"
                 },
                 {
                     "key": "body"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -9200,7 +9126,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-24T11:32:05.369Z",
-        "updatedAt": "2024-08-09T09:29:01.883Z",
+        "updatedAt": "2024-08-09T15:27:02.893Z",
         "deleted": false,
         "policies": [
             {
@@ -9231,7 +9157,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getProjects2?_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -9245,12 +9171,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -9260,7 +9181,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getProjects2"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -9277,7 +9198,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-24T12:02:52.039Z",
-        "updatedAt": "2024-08-09T09:29:12.443Z",
+        "updatedAt": "2024-08-09T15:27:19.673Z",
         "deleted": false,
         "policies": [
             {
@@ -9308,7 +9229,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getProjects2?_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -9322,12 +9243,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -9337,7 +9253,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getProjects2"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -9354,7 +9270,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-24T12:03:30.036Z",
-        "updatedAt": "2024-08-09T09:30:10.073Z",
+        "updatedAt": "2024-08-09T15:28:46.318Z",
         "deleted": false,
         "policies": [
             {
@@ -9385,7 +9301,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getProjects2?_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -9399,12 +9315,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -9414,7 +9325,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getProjects2"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -9431,7 +9342,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-24T12:04:15.595Z",
-        "updatedAt": "2024-08-09T09:30:34.330Z",
+        "updatedAt": "2024-08-09T15:29:22.544Z",
         "deleted": false,
         "policies": [
             {
@@ -9462,7 +9373,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getProjectsInfo?_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -9476,12 +9387,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -9491,7 +9397,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getProjectsInfo"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -9514,7 +9420,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-24T12:45:33.187Z",
-        "updatedAt": "2024-08-09T09:29:10.580Z",
+        "updatedAt": "2024-08-09T15:27:15.343Z",
         "deleted": false,
         "policies": [
             {
@@ -9545,7 +9451,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/updateProjectsInfo?_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -9564,12 +9470,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -9579,13 +9480,10 @@
                         "value": true
                     }
                 ],
-                "path": "/updateProjectsInfo",
+                "path": "",
                 "body": "{\n\t\"name\":{{JSON.stringify(name_projectsSettings.text)}},\n\t\"location\":{{JSON.stringify(address_projectsSettings.text)}},\n\t\"buildingNumber\":{{JSON.stringify(buildingNumber_projectsSetting.text)}},\n\t\"codeProject\":{{JSON.stringify(code_project_projectsSettings.text)}},\n\t\"nameProjectByStamp\":{{JSON.stringify(name_project_stamp_projectsSet.text)}},\n\t\"queue\":{{JSON.stringify(queue_projectsSettings.text)}},\n\t\"baner\":{{JSON.stringify(getProjectInfo.data[0].baner)}},\n\t\"banerNew\":{{JSON.stringify(main.store.baner)}},\n\t\"projectCodes\":{{JSON.stringify(generation_code_projectsSettin.text)}}\n}\n"
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "path"
                 },
@@ -9594,6 +9492,9 @@
                 },
                 {
                     "key": "body"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -9615,7 +9516,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-24T12:56:03.082Z",
-        "updatedAt": "2024-08-09T09:29:15.346Z",
+        "updatedAt": "2024-08-09T15:27:23.474Z",
         "deleted": false,
         "policies": [
             {
@@ -9646,7 +9547,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getProjects1"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -9670,7 +9571,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getProjects1"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -9686,7 +9587,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-24T15:17:41.476Z",
-        "updatedAt": "2024-08-09T09:30:40.688Z",
+        "updatedAt": "2024-08-09T15:29:31.035Z",
         "deleted": false,
         "policies": [
             {
@@ -9717,7 +9618,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/signout"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -9746,7 +9647,7 @@
                         "value": true
                     }
                 ],
-                "path": "/signout",
+                "path": "",
                 "body": ""
             },
             "dynamicBindingPathList": [
@@ -9763,7 +9664,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-11-27T16:59:49.825Z",
-        "updatedAt": "2024-08-09T11:47:20.746Z",
+        "updatedAt": "2024-08-09T15:23:32.743Z",
         "deleted": false,
         "policies": [
             {
@@ -9794,7 +9695,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getTemplate?_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -9808,12 +9709,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -9823,17 +9719,17 @@
                         "value": true
                     }
                 ],
-                "path": "/getTemplate"
+                "path": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "path"
                 },
                 {
                     "key": "queryParameters[0].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -9846,7 +9742,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-01T13:28:15.761Z",
-        "updatedAt": "2024-08-09T09:27:32.612Z",
+        "updatedAt": "2024-08-09T15:25:21.911Z",
         "deleted": false,
         "policies": [
             {
@@ -9877,7 +9773,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getContracts?_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -9891,12 +9787,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -9906,7 +9797,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getContracts"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -9919,15 +9810,14 @@
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
-                "main.env.n",
-                "main.URL.queryParams._id",
-                "main.env.nr"
+                "main.env.nr",
+                "main.URL.queryParams._id"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-06T15:20:26.977Z",
-        "updatedAt": "2024-08-09T12:30:04.994Z",
+        "updatedAt": "2024-08-09T15:28:26.204Z",
         "deleted": false,
         "policies": [
             {
@@ -10001,7 +9891,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getCounterpartiesforSelect"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -10025,9 +9915,13 @@
                         "value": true
                     }
                 ],
-                "path": "/getCounterpartiesforSelect"
+                "path": ""
             },
-            "dynamicBindingPathList": [],
+            "dynamicBindingPathList": [
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
@@ -10037,7 +9931,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-07T15:51:05.887Z",
-        "updatedAt": "2024-08-09T09:30:00.783Z",
+        "updatedAt": "2024-08-09T15:28:29.930Z",
         "deleted": false,
         "policies": [
             {
@@ -10068,7 +9962,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/createNewContract?_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -10087,12 +9981,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "body": "{\n\t\"name\":{{JSON.stringify(contractNameInput.text)}},\n\t\"status\":{{JSON.stringify(newContractStatusLabel.text)}},\n\t\"type\":{{typeOfContractor.isSwitchedOn}},\n\t\"client\": {{JSON.stringify(counterpartiesSelect.selectedOptionValue)}},\n\t\"contractType\":{{contractTypeSwitch.isSwitchedOn}},\n\t\"sum\":{{JSON.stringify(contractSumInput.text)}},\n\t\"relatedContracts\":{{JSON.stringify([])}},\n\t\"relatedTasks\":{{JSON.stringify([])}},\n\t\"adminExpenses\":{{JSON.stringify([])}},\n\t\"files\":{{JSON.stringify(filesList.listData)}}\n}",
                 "bodyFormData": [],
                 "formData": {
@@ -10103,12 +9992,9 @@
                         "value": true
                     }
                 ],
-                "path": "/createNewContract"
+                "path": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "body"
                 },
@@ -10117,6 +10003,9 @@
                 },
                 {
                     "key": "queryParameters[0].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -10132,13 +10021,13 @@
                 "JSON.stringify(contractSumInput.text)",
                 "JSON.stringify([])",
                 "JSON.stringify(filesList.listData)",
-                "main.env.nr,2023-12-07T16:58:33.562Z,2024-08-09T09:29:34.769Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr"
+                "main.env.nr,2023-12-07T16:58:33.562Z,2024-08-09T15:27:48.597Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,{{main.env.nr"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-07T16:58:33.562Z",
-        "updatedAt": "2024-08-09T12:30:33.493Z",
+        "updatedAt": "2024-08-09T15:27:51.242Z",
         "deleted": false,
         "policies": [
             {
@@ -10169,7 +10058,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getAllTasks?_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -10183,12 +10072,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -10198,14 +10082,14 @@
                         "value": true
                     }
                 ],
-                "path": "/getAllTasks"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
-                    "key": "datasourceUrl"
+                    "key": "queryParameters[0].value"
                 },
                 {
-                    "key": "queryParameters[0].value"
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -10218,7 +10102,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-09T14:29:56.453Z",
-        "updatedAt": "2024-08-09T09:29:51.442Z",
+        "updatedAt": "2024-08-09T15:28:22.000Z",
         "deleted": false,
         "policies": [
             {
@@ -10249,7 +10133,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/addRelatedTasks?contractId={{contractsTable.selectedRow._id}}&_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -10268,16 +10152,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "contractId",
-                        "value": "{{contractsTable.selectedRow._id}}"
-                    },
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -10287,13 +10162,10 @@
                         "value": true
                     }
                 ],
-                "path": "/addRelatedTasks",
+                "path": "",
                 "body": "{\n\t\"taskId\":{{JSON.stringify(SelectAllTask_upd.selectedOptionValue)}},\n\t\"taskSum\":{{JSON.stringify(taskSum_upd.text)}},\n\t\"sum\":{{JSON.stringify(contractSumInput_upd.text)}},\n\t \"type\":{{typeOfContractor_upd.isSwitchedOn}}\n}"
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "body"
                 },
@@ -10302,6 +10174,9 @@
                 },
                 {
                     "key": "queryParameters[1].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -10319,7 +10194,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-10T16:31:24.854Z",
-        "updatedAt": "2024-08-09T12:30:29.446Z",
+        "updatedAt": "2024-08-09T15:27:46.470Z",
         "deleted": false,
         "policies": [
             {
@@ -10350,7 +10225,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getFilesFromTasks?_id={{progectTemplateTable.selectedRow._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -10364,12 +10239,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{progectTemplateTable.selectedRow._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -10379,17 +10249,17 @@
                         "value": true
                     }
                 ],
-                "path": "/getFilesFromTasks"
+                "path": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "path"
                 },
                 {
                     "key": "queryParameters[0].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -10402,7 +10272,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-10T20:34:45.277Z",
-        "updatedAt": "2024-08-09T09:26:52.572Z",
+        "updatedAt": "2024-08-09T15:24:23.447Z",
         "deleted": false,
         "policies": [
             {
@@ -10433,7 +10303,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/updateContract?contractId={{contractsTable.selectedRow._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -10452,12 +10322,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "contractId",
-                        "value": "{{contractsTable.selectedRow._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "body": "{\n  \"name\":{{JSON.stringify(contractNameInput_upd.text)}},\n  \"status\":{{JSON.stringify(contractStatus_upd.text)}},\n  \"type\":{{typeOfContractor_upd.isSwitchedOn}},\n  \"client\": {{JSON.stringify(counterpartiesSelect_upd.selectedOptionValue)}},\n  \"contractType\":{{contractTypeSwitch_upd.isSwitchedOn}},\n  \"sum\":{{JSON.stringify(contractSumInput_upd.text)}},\n  \"files\":{{JSON.stringify(filesList_upd.listData)}},\n  \"relatedTasks\":{{JSON.stringify(relatedTasksListforAPI.text)}}\n}",
                 "bodyFormData": [],
                 "formData": {
@@ -10468,17 +10333,17 @@
                         "value": true
                     }
                 ],
-                "path": "/updateContract"
+                "path": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "body"
                 },
                 {
                     "key": "queryParameters[0].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -10499,7 +10364,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-10T21:01:30.800Z",
-        "updatedAt": "2024-08-09T09:30:22.474Z",
+        "updatedAt": "2024-08-09T15:29:08.924Z",
         "deleted": false,
         "policies": [
             {
@@ -10530,7 +10395,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getRelatedTasks?contractId={{contractsTable.selectedRow._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -10544,12 +10409,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "contractId",
-                        "value": "{{contractsTable.selectedRow._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -10559,14 +10419,14 @@
                         "value": true
                     }
                 ],
-                "path": "/getRelatedTasks"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
-                    "key": "datasourceUrl"
+                    "key": "queryParameters[0].value"
                 },
                 {
-                    "key": "queryParameters[0].value"
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -10579,7 +10439,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-10T22:32:19.928Z",
-        "updatedAt": "2024-08-09T09:30:15.289Z",
+        "updatedAt": "2024-08-09T15:28:54.654Z",
         "deleted": false,
         "policies": [
             {
@@ -10610,7 +10470,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/deleteContract?contractId={{contractsTable.selectedRow._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -10629,12 +10489,7 @@
                         "value": "text/plain"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "value": "{{contractsTable.selectedRow._id}}",
-                        "key": "contractId"
-                    }
-                ],
+                "queryParameters": [],
                 "body": "",
                 "bodyFormData": [],
                 "formData": {
@@ -10645,14 +10500,14 @@
                         "value": true
                     }
                 ],
-                "path": "/deleteContract"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
-                    "key": "datasourceUrl"
+                    "key": "queryParameters[0].value"
                 },
                 {
-                    "key": "queryParameters[0].value"
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -10665,7 +10520,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-10T22:57:57.148Z",
-        "updatedAt": "2024-08-09T12:30:41.653Z",
+        "updatedAt": "2024-08-09T15:27:59.221Z",
         "deleted": false,
         "policies": [
             {
@@ -10696,7 +10551,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/addAdminExpenses?contractId={{contractsTable.selectedRow._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -10715,12 +10570,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "contractId",
-                        "value": "{{contractsTable.selectedRow._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "body": "{\n\t\"taskName\":{{JSON.stringify(adminTaskName_upd.text)}},\n\t\"taskSum\":{{JSON.stringify(adminTaskSum_upd.text)}}\n}",
                 "bodyFormData": [],
                 "formData": {
@@ -10731,17 +10581,17 @@
                         "value": true
                     }
                 ],
-                "path": "/addAdminExpenses"
+                "path": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "queryParameters[0].value"
                 },
                 {
                     "key": "body"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -10756,7 +10606,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-10T23:23:06.638Z",
-        "updatedAt": "2024-08-09T12:30:16.941Z",
+        "updatedAt": "2024-08-09T15:27:38.807Z",
         "deleted": false,
         "policies": [
             {
@@ -10787,7 +10637,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getAdminExpenses?contractId={{contractsTable.selectedRow._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -10801,12 +10651,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "contractId",
-                        "value": "{{contractsTable.selectedRow._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -10816,14 +10661,14 @@
                         "value": true
                     }
                 ],
-                "path": "/getAdminExpenses"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
-                    "key": "datasourceUrl"
+                    "key": "queryParameters[0].value"
                 },
                 {
-                    "key": "queryParameters[0].value"
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -10836,7 +10681,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-10T23:30:05.150Z",
-        "updatedAt": "2024-08-09T09:29:44.350Z",
+        "updatedAt": "2024-08-09T15:28:12.333Z",
         "deleted": false,
         "policies": [
             {
@@ -10867,7 +10712,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/addRelatedContracts?contractId={{contractsTable.selectedRow._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -10886,12 +10731,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "contractId",
-                        "value": "{{contractsTable.selectedRow._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "body": "{\n\t\"contractIds\":{{JSON.stringify(allContractsSelect.selectedOptionValue)}}\n}",
                 "bodyFormData": [],
                 "formData": {
@@ -10902,17 +10742,17 @@
                         "value": true
                     }
                 ],
-                "path": "/addRelatedContracts"
+                "path": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "body"
                 },
                 {
                     "key": "queryParameters[0].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -10926,7 +10766,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-11T00:15:34.345Z",
-        "updatedAt": "2024-08-09T12:30:26.101Z",
+        "updatedAt": "2024-08-09T15:27:42.364Z",
         "deleted": false,
         "policies": [
             {
@@ -10957,7 +10797,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getRelatedContracts?contractId={{contractsTable.selectedRow._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -10971,12 +10811,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "contractId",
-                        "value": "{{contractsTable.selectedRow._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -10986,11 +10821,14 @@
                         "value": true
                     }
                 ],
-                "path": "/getRelatedContracts"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
                     "key": "queryParameters[0].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -11003,7 +10841,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-11T00:16:40.309Z",
-        "updatedAt": "2024-08-09T09:30:12.350Z",
+        "updatedAt": "2024-08-09T15:28:50.455Z",
         "deleted": false,
         "policies": [
             {
@@ -11034,7 +10872,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getAllContractsForSelect?_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -11048,12 +10886,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -11063,14 +10896,14 @@
                         "value": true
                     }
                 ],
-                "path": "/getAllContractsForSelect"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
-                    "key": "datasourceUrl"
+                    "key": "queryParameters[0].value"
                 },
                 {
-                    "key": "queryParameters[0].value"
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -11083,7 +10916,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-11T00:38:30.019Z",
-        "updatedAt": "2024-08-09T09:29:48.988Z",
+        "updatedAt": "2024-08-09T15:28:16.941Z",
         "deleted": false,
         "policies": [
             {
@@ -11114,7 +10947,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/updateRelatedTasks?contractId={{contractsTable.selectedRow._id}}&_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -11133,16 +10966,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "contractId",
-                        "value": "{{contractsTable.selectedRow._id}}"
-                    },
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -11152,13 +10976,10 @@
                         "value": true
                     }
                 ],
-                "path": "/updateRelatedTasks",
+                "path": "",
                 "body": "{\n\t\"taskId\":{{JSON.stringify(List1Copy200.selectedItem.taskId)}},\n\t\"taskSum\":{{JSON.stringify(sum3.text)}}\n}"
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "path"
                 },
@@ -11170,6 +10991,9 @@
                 },
                 {
                     "key": "body"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -11185,7 +11009,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-11T11:39:23.249Z",
-        "updatedAt": "2024-08-09T09:30:24.632Z",
+        "updatedAt": "2024-08-09T15:29:12.691Z",
         "deleted": false,
         "policies": [
             {
@@ -11216,7 +11040,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getFile"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -11245,18 +11069,18 @@
                         "value": true
                     }
                 ],
-                "path": "/getFile",
+                "path": "",
                 "body": "{\n\"fileName\": \"{{main.store.fileName}}\"\n}"
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "path"
                 },
                 {
                     "key": "body"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -11269,7 +11093,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-11T13:56:30.515Z",
-        "updatedAt": "2024-08-09T09:30:55.087Z",
+        "updatedAt": "2024-08-09T15:30:02.068Z",
         "deleted": false,
         "policies": [
             {
@@ -11300,7 +11124,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/updateTask?taskId={{progectTemplateTable.selectedRow._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -11319,12 +11143,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "taskId",
-                        "value": "{{progectTemplateTable.selectedRow._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -11334,7 +11153,7 @@
                         "value": true
                     }
                 ],
-                "path": "/updateTask",
+                "path": "",
                 "body": "{\n\t\"name\":{{JSON.stringify(taskNameInput.text)}},\n\t\"status\":{{JSON.stringify(documentStatusLabel.text)}},\n \"startDate\":{{JSON.stringify(updateTaskDateStart.formattedDate)}},\n   \"deadline\":{{JSON.stringify(updateTaskDateFinish.formattedDate)}},\n\t\"difference\": {{JSON.stringify(marginAmount.text)}},\n  \"customer\": {{JSON.stringify(contractorAmount.text)}},\n  \"client\": {{JSON.stringify(clientAmount.text)}},\n\t\"performer\":{{JSON.stringify(Select_clientName.selectedOptionValue)}},\n\t\"isOncriticalPath\":{{JSON.stringify(Checkbox1.isChecked)}},\n\t\"dependencies\":{{JSON.stringify(Text58.text)}}\n}"
             },
             "dynamicBindingPathList": [
@@ -11342,13 +11161,13 @@
                     "key": "path"
                 },
                 {
-                    "key": "datasourceUrl"
-                },
-                {
                     "key": "body"
                 },
                 {
                     "key": "queryParameters[0].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -11366,13 +11185,13 @@
                 "JSON.stringify(Select_clientName.selectedOptionValue)",
                 "JSON.stringify(Checkbox1.isChecked)",
                 "JSON.stringify(Text58.text)",
-                "main.env.nr,2023-12-11T14:16:42.161Z,2024-01-24T12:53:17.614Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr,2023-12-11T14:16:42.161Z,2024-08-09T09:27:30.551Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr"
+                "main.env.nr,2023-12-11T14:16:42.161Z,2024-08-09T09:27:35.610Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr,2023-12-11T14:16:42.161Z,2024-08-09T15:25:24.657Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,{{main.env.nr"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-11T14:16:42.161Z",
-        "updatedAt": "2024-08-09T09:27:35.610Z",
+        "updatedAt": "2024-08-09T15:25:27.520Z",
         "deleted": false,
         "policies": [
             {
@@ -11403,7 +11222,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/updateAdminExpenses?contractId={{contractsTable.selectedRow._id}}&_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -11422,16 +11241,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "contractId",
-                        "value": "{{contractsTable.selectedRow._id}}"
-                    },
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -11441,7 +11251,7 @@
                         "value": true
                     }
                 ],
-                "path": "/updateAdminExpenses",
+                "path": "",
                 "body": "{\n\t\"taskId\":{{JSON.stringify(ListAdminTasks_upd.selectedItem._id)}},\n\t\"taskSum\":{{JSON.stringify(sum5.text)}}\n}"
             },
             "dynamicBindingPathList": [
@@ -11456,6 +11266,9 @@
                 },
                 {
                     "key": "body"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -11471,7 +11284,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-11T15:06:51.845Z",
-        "updatedAt": "2024-08-09T09:30:20.533Z",
+        "updatedAt": "2024-08-09T15:29:04.184Z",
         "deleted": false,
         "policies": [
             {
@@ -11502,7 +11315,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/deleteRelatedTasks?contractId={{contractsTable.selectedRow._id}}&_id={{main.URL.queryParams._id}}&taskId={{List1Copy200.selectedItem.taskId}}\t"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -11521,20 +11334,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "contractId",
-                        "value": "{{contractsTable.selectedRow._id}}"
-                    },
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    },
-                    {
-                        "key": "taskId",
-                        "value": "{{List1Copy200.selectedItem.taskId}}\t"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -11544,13 +11344,10 @@
                         "value": true
                     }
                 ],
-                "path": "/deleteRelatedTasks",
+                "path": "",
                 "body": "{\n\t\"taskId\":{{JSON.stringify(List1Copy200.selectedItem.taskId)}}\t\n}"
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "path"
                 },
@@ -11565,6 +11362,9 @@
                 },
                 {
                     "key": "queryParameters[2].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -11580,7 +11380,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-11T17:57:32.239Z",
-        "updatedAt": "2024-08-09T12:30:44.955Z",
+        "updatedAt": "2024-08-09T15:28:06.629Z",
         "deleted": false,
         "policies": [
             {
@@ -11611,7 +11411,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/deleteAdminExpenses?contractId={{contractsTable.selectedRow._id}}&_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -11630,16 +11430,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "contractId",
-                        "value": "{{contractsTable.selectedRow._id}}"
-                    },
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -11649,7 +11440,7 @@
                         "value": true
                     }
                 ],
-                "path": "/deleteAdminExpenses",
+                "path": "",
                 "body": "{\n\t\"taskId\":{{JSON.stringify(ListAdminTasks_upd.selectedItem._id)}}\n}"
             },
             "dynamicBindingPathList": [
@@ -11676,13 +11467,13 @@
                 "contractsTable.selectedRow._id",
                 "main.URL.queryParams._id",
                 "JSON.stringify(ListAdminTasks_upd.selectedItem._id)",
-                "main.,API,Сontracts,POST,content-type,application/json,contractId,{{contractsTable.selectedRow._id,2023-12-11T18:09:44.118Z,2023-12-11T18:15:59.633Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env,API,Сontracts,POST,content-type,application/json,contractId,{{contractsTable.selectedRow._id,2023-12-11T18:09:44.118Z,2023-12-11T18:16:00.481Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr,API,Сontracts,POST,content-type,application/json,contractId,{{contractsTable.selectedRow._id,2023-12-11T18:09:44.118Z,2023-12-11T18:16:02.447Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr,contractsTable.selectedRow._id,2023-12-11T18:09:44.118Z,2023-12-11T18:16:03.533Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr,2023-12-11T18:09:44.118Z,2023-12-11T18:16:10.795Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr,2023-12-11T18:09:44.118Z,2023-12-11T18:16:15.335Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr,2023-12-11T18:09:44.118Z,2024-08-09T09:29:37.699Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr"
+                "main.env,API,Сontracts,POST,content-type,application/json,contractId,{{contractsTable.selectedRow._id,2023-12-11T18:09:44.118Z,2023-12-11T18:16:00.481Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr,API,Сontracts,POST,content-type,application/json,contractId,{{contractsTable.selectedRow._id,2023-12-11T18:09:44.118Z,2023-12-11T18:16:02.447Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr,contractsTable.selectedRow._id,2023-12-11T18:09:44.118Z,2023-12-11T18:16:03.533Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr,2023-12-11T18:09:44.118Z,2023-12-11T18:16:10.795Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr,2023-12-11T18:09:44.118Z,2023-12-11T18:16:15.335Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr,2023-12-11T18:09:44.118Z,2024-08-09T09:29:37.699Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr,2023-12-11T18:09:44.118Z,2024-08-09T12:30:37.932Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr,2023-12-11T18:09:44.118Z,2024-08-09T15:27:52.483Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,{{main.env.nr"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-11T18:09:44.118Z",
-        "updatedAt": "2024-08-09T12:30:37.932Z",
+        "updatedAt": "2024-08-09T15:27:55.180Z",
         "deleted": false,
         "policies": [
             {
@@ -11713,7 +11504,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/terminateContract?contractId={{contractsTable.selectedRow._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -11732,12 +11523,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "contractId",
-                        "value": "{{contractsTable.selectedRow._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "body": "{\n\t\"contractsIds\":{{JSON.stringify(relatedContractList_upd.selectedItem.contractIds)}}\n}",
                 "bodyFormData": [],
                 "formData": {
@@ -11748,7 +11534,7 @@
                         "value": true
                     }
                 ],
-                "path": "/terminateContract"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -11775,7 +11561,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-11T21:09:15.621Z",
-        "updatedAt": "2024-08-09T09:30:17.577Z",
+        "updatedAt": "2024-08-09T15:28:58.285Z",
         "deleted": false,
         "policies": [
             {
@@ -11806,7 +11592,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/deleteFileFromTask?taskId={{progectTemplateTable.selectedRow._id}}&fileId={{filesList.selectedItem.fileId}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -11825,16 +11611,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "taskId",
-                        "value": "{{progectTemplateTable.selectedRow._id}}"
-                    },
-                    {
-                        "key": "fileId",
-                        "value": "{{filesList.selectedItem.fileId}}"
-                    }
-                ],
+                "queryParameters": [],
                 "body": "",
                 "bodyFormData": [],
                 "formData": {
@@ -11845,17 +11622,17 @@
                         "value": true
                     }
                 ],
-                "path": "/deleteFileFromTask"
+                "path": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "queryParameters[0].value"
                 },
                 {
                     "key": "queryParameters[1].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -11869,7 +11646,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-11T22:34:17.050Z",
-        "updatedAt": "2024-08-09T09:26:32.404Z",
+        "updatedAt": "2024-08-09T15:24:01.178Z",
         "deleted": false,
         "policies": [
             {
@@ -11900,7 +11677,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getContractsCustomerContractor?progectId={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -11914,12 +11691,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "progectId",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -11929,17 +11701,17 @@
                         "value": true
                     }
                 ],
-                "path": "/getContractsCustomerContractor"
+                "path": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "path"
                 },
                 {
                     "key": "queryParameters[0].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -11952,7 +11724,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-12T11:01:13.698Z",
-        "updatedAt": "2024-08-09T09:26:46.803Z",
+        "updatedAt": "2024-08-09T15:24:15.253Z",
         "deleted": false,
         "policies": [
             {
@@ -11983,7 +11755,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/addRelatedTasks2?contractId={{SelectClient2.selectedOptionValue}}&_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -12002,16 +11774,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "contractId",
-                        "value": "{{SelectClient2.selectedOptionValue}}"
-                    },
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "body": "{\n\t\"taskId\":{{JSON.stringify(progectTemplateTable.selectedRow._id)}},\n\t\"taskSum\":{{JSON.stringify(sumTaskCustomer.text)}}\n}",
                 "bodyFormData": [],
                 "formData": {
@@ -12022,12 +11785,9 @@
                         "value": true
                     }
                 ],
-                "path": "/addRelatedTasks2"
+                "path": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "path"
                 },
@@ -12039,6 +11799,9 @@
                 },
                 {
                     "key": "queryParameters[1].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -12054,7 +11817,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-12T11:49:09.666Z",
-        "updatedAt": "2024-08-09T09:27:42.139Z",
+        "updatedAt": "2024-08-09T15:25:35.077Z",
         "deleted": false,
         "policies": [
             {
@@ -12085,7 +11848,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/addRelatedTasks2?contractId={{SelectClient.selectedOptionValue}}&_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -12104,16 +11867,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "contractId",
-                        "value": "{{SelectClient.selectedOptionValue}}"
-                    },
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -12123,13 +11877,10 @@
                         "value": true
                     }
                 ],
-                "path": "/addRelatedTasks2",
+                "path": "",
                 "body": "{\n\t\"taskId\":{{JSON.stringify(progectTemplateTable.selectedRow._id)}},\n\t\"taskSum\":{{JSON.stringify(sumTaskContractor.text)}}\n}"
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "body"
                 },
@@ -12141,6 +11892,9 @@
                 },
                 {
                     "key": "queryParameters[1].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -12156,7 +11910,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-12T11:50:51.520Z",
-        "updatedAt": "2024-08-09T09:27:37.500Z",
+        "updatedAt": "2024-08-09T15:25:31.077Z",
         "deleted": false,
         "policies": [
             {
@@ -12187,7 +11941,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getRelatedContractforTaskCustomer?_id={{main.URL.queryParams._id}}&taskId={{progectTemplateTable.selectedRow._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -12201,16 +11955,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    },
-                    {
-                        "key": "taskId",
-                        "value": "{{progectTemplateTable.selectedRow._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -12220,17 +11965,17 @@
                         "value": true
                     }
                 ],
-                "path": "/getRelatedContractforTaskCustomer"
+                "path": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "queryParameters[0].value"
                 },
                 {
                     "key": "queryParameters[1].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -12244,7 +11989,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-12T12:09:44.537Z",
-        "updatedAt": "2024-08-09T09:27:08.804Z",
+        "updatedAt": "2024-08-09T15:24:51.727Z",
         "deleted": false,
         "policies": [
             {
@@ -12275,7 +12020,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getRelatedContractforTaskContractor?_id={{main.URL.queryParams._id}}&taskId={{progectTemplateTable.selectedRow._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -12289,16 +12034,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    },
-                    {
-                        "key": "taskId",
-                        "value": "{{progectTemplateTable.selectedRow._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -12308,17 +12044,17 @@
                         "value": true
                     }
                 ],
-                "path": "/getRelatedContractforTaskContractor"
+                "path": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "queryParameters[0].value"
                 },
                 {
                     "key": "queryParameters[1].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -12332,7 +12068,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-12T12:16:06.200Z",
-        "updatedAt": "2024-08-09T09:27:06.480Z",
+        "updatedAt": "2024-08-09T15:24:47.688Z",
         "deleted": false,
         "policies": [
             {
@@ -12363,7 +12099,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/deleteRelatedTasks?contractId={{contractorContractList.selectedItem._id}}&taskId={{progectTemplateTable.selectedRow._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -12382,16 +12118,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "contractId",
-                        "value": "{{contractorContractList.selectedItem._id}}"
-                    },
-                    {
-                        "key": "taskId",
-                        "value": "{{progectTemplateTable.selectedRow._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -12401,18 +12128,18 @@
                         "value": true
                     }
                 ],
-                "path": "/deleteRelatedTasks",
+                "path": "",
                 "body": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "queryParameters[0].value"
                 },
                 {
                     "key": "queryParameters[1].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -12426,7 +12153,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-12T12:59:55.248Z",
-        "updatedAt": "2024-08-09T09:26:36.463Z",
+        "updatedAt": "2024-08-09T15:24:04.811Z",
         "deleted": false,
         "policies": [
             {
@@ -12457,7 +12184,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/deleteRelatedTasks?contractId={{clientContractList.selectedItem._id}}&taskId={{progectTemplateTable.selectedRow._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -12476,16 +12203,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "contractId",
-                        "value": "{{clientContractList.selectedItem._id}}"
-                    },
-                    {
-                        "key": "taskId",
-                        "value": "{{progectTemplateTable.selectedRow._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "body": "",
                 "bodyFormData": [],
                 "formData": {
@@ -12496,7 +12214,7 @@
                         "value": true
                     }
                 ],
-                "path": "/deleteRelatedTasks"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -12504,6 +12222,9 @@
                 },
                 {
                     "key": "queryParameters[1].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -12517,7 +12238,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-12T13:02:55.209Z",
-        "updatedAt": "2024-08-09T09:26:41.678Z",
+        "updatedAt": "2024-08-09T15:24:08.950Z",
         "deleted": false,
         "policies": [
             {
@@ -12588,7 +12309,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/deleteProject"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -12617,7 +12338,7 @@
                         "value": true
                     }
                 ],
-                "path": "/deleteProject",
+                "path": "",
                 "body": "{\n\t\"_id\":{{JSON.stringify(main.URL.queryParams._id)}}\n}"
             },
             "dynamicBindingPathList": [
@@ -12626,6 +12347,9 @@
                 },
                 {
                     "key": "body"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -12638,7 +12362,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-14T17:35:21.014Z",
-        "updatedAt": "2024-08-09T09:29:08.342Z",
+        "updatedAt": "2024-08-09T15:27:10.460Z",
         "deleted": false,
         "policies": [
             {
@@ -12669,7 +12393,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/deleteUser?_id={{Table1.selectedRow._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -12688,12 +12412,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{Table1.selectedRow._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -12703,7 +12422,7 @@
                         "value": true
                     }
                 ],
-                "path": "/deleteUser",
+                "path": "",
                 "body": ""
             },
             "dynamicBindingPathList": [
@@ -12727,7 +12446,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-14T17:40:29.380Z",
-        "updatedAt": "2024-08-09T09:25:26.306Z",
+        "updatedAt": "2024-08-09T15:22:32.759Z",
         "deleted": false,
         "policies": [
             {
@@ -12758,7 +12477,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getFilesFromContract?_id={{contractsTable.selectedRow._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -12772,12 +12491,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{contractsTable.selectedRow._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -12787,7 +12501,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getFilesFromContract"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -12795,6 +12509,9 @@
                 },
                 {
                     "key": "queryParameters[0].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -12807,7 +12524,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-14T18:15:50.453Z",
-        "updatedAt": "2024-08-09T09:30:06.846Z",
+        "updatedAt": "2024-08-09T15:28:34.771Z",
         "deleted": false,
         "policies": [
             {
@@ -12838,7 +12555,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/deleteFileFromContract?contractId={{contractsTable.selectedRow._id}}&fileId={{filesList_upd.selectedItem.fileId}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -12857,16 +12574,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "contractId",
-                        "value": "{{contractsTable.selectedRow._id}}"
-                    },
-                    {
-                        "key": "fileId",
-                        "value": "{{filesList_upd.selectedItem.fileId}}"
-                    }
-                ],
+                "queryParameters": [],
                 "body": "",
                 "bodyFormData": [],
                 "formData": {
@@ -12877,7 +12585,7 @@
                         "value": true
                     }
                 ],
-                "path": "/deleteFileFromContract"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -12888,6 +12596,9 @@
                 },
                 {
                     "key": "queryParameters[1].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -12901,7 +12612,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-14T18:18:11.505Z",
-        "updatedAt": "2024-08-09T09:29:42.085Z",
+        "updatedAt": "2024-08-09T15:28:02.989Z",
         "deleted": false,
         "policies": [
             {
@@ -12932,7 +12643,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getProjectInfo?_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -12946,12 +12657,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -12961,17 +12667,17 @@
                         "value": true
                     }
                 ],
-                "path": "/getProjectInfo"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
                     "key": "path"
                 },
                 {
-                    "key": "datasourceUrl"
+                    "key": "queryParameters[0].value"
                 },
                 {
-                    "key": "queryParameters[0].value"
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -12984,7 +12690,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-15T14:52:08.807Z",
-        "updatedAt": "2024-08-09T09:27:01.595Z",
+        "updatedAt": "2024-08-09T15:24:38.529Z",
         "deleted": false,
         "policies": [
             {
@@ -13015,7 +12721,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getProjectInfo?_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -13029,12 +12735,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -13044,17 +12745,17 @@
                         "value": true
                     }
                 ],
-                "path": "/getProjectInfo"
+                "path": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "path"
                 },
                 {
                     "key": "queryParameters[0].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -13067,7 +12768,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-18T09:18:51.675Z",
-        "updatedAt": "2024-08-09T09:30:03.231Z",
+        "updatedAt": "2024-08-09T15:28:40.356Z",
         "deleted": false,
         "policies": [
             {
@@ -13098,7 +12799,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getProjectInfo?_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -13112,12 +12813,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -13127,17 +12823,17 @@
                         "value": true
                     }
                 ],
-                "path": "/getProjectInfo"
+                "path": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "path"
                 },
                 {
                     "key": "queryParameters[0].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -13150,7 +12846,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-18T09:29:32.139Z",
-        "updatedAt": "2024-08-09T09:28:46.151Z",
+        "updatedAt": "2024-08-09T15:26:38.083Z",
         "deleted": false,
         "policies": [
             {
@@ -13261,7 +12957,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getUserAvatar?_id={{main.user.auth_module.user.info.user._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -13275,12 +12971,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.user.auth_module.user.info.user._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -13290,17 +12981,17 @@
                         "value": true
                     }
                 ],
-                "path": "/getUserAvatar"
+                "path": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "path"
                 },
                 {
                     "key": "queryParameters[0].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -13313,7 +13004,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-21T11:18:01.572Z",
-        "updatedAt": "2024-08-09T09:30:45.184Z",
+        "updatedAt": "2024-08-09T15:29:38.398Z",
         "deleted": false,
         "policies": [
             {
@@ -13344,7 +13035,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/addNewSection?parentSectionId={{progectTemplateTable.selectedRow._id}}&projectId={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -13363,16 +13054,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "parentSectionId",
-                        "value": "{{progectTemplateTable.selectedRow._id}}"
-                    },
-                    {
-                        "key": "projectId",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "body": "{\n\t\"name\":{{JSON.stringify(name_newSection.text)}}\n}",
                 "bodyFormData": [],
                 "formData": {
@@ -13383,12 +13065,9 @@
                         "value": true
                     }
                 ],
-                "path": "/addNewSection"
+                "path": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "queryParameters[0].value"
                 },
@@ -13397,6 +13076,9 @@
                 },
                 {
                     "key": "body"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -13411,7 +13093,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-21T22:06:33.470Z",
-        "updatedAt": "2024-08-09T09:26:19.398Z",
+        "updatedAt": "2024-08-09T15:23:47.786Z",
         "deleted": false,
         "policies": [
             {
@@ -13442,7 +13124,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/addRelatedTasksMany?contractId={{Select_addDocToTask.selectedOptionValue}}&_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -13461,16 +13143,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "contractId",
-                        "value": "{{Select_addDocToTask.selectedOptionValue}}"
-                    },
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "body": "{\n\t\"tasksArr\":{{JSON.stringify(tasksArr.text)}}\n}",
                 "bodyFormData": [],
                 "formData": {
@@ -13481,12 +13154,9 @@
                         "value": true
                     }
                 ],
-                "path": "/addRelatedTasksMany"
+                "path": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "body"
                 },
@@ -13498,6 +13168,9 @@
                 },
                 {
                     "key": "queryParameters[1].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -13512,7 +13185,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-26T16:24:26.195Z",
-        "updatedAt": "2024-08-09T09:27:49.863Z",
+        "updatedAt": "2024-08-09T15:25:43.110Z",
         "deleted": false,
         "policies": [
             {
@@ -13543,7 +13216,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/addRelatedTasksMany?contractId={{Select_addDocToTaskCopy.selectedOptionValue}}&_id={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -13562,16 +13235,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "contractId",
-                        "value": "{{Select_addDocToTaskCopy.selectedOptionValue}}"
-                    },
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "body": "{\n\t\"tasksArr\":{{JSON.stringify(tasksArr2.text)}}\n}",
                 "bodyFormData": [],
                 "formData": {
@@ -13582,14 +13246,11 @@
                         "value": true
                     }
                 ],
-                "path": "/addRelatedTasksMany"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
                     "key": "path"
-                },
-                {
-                    "key": "datasourceUrl"
                 },
                 {
                     "key": "body"
@@ -13599,6 +13260,9 @@
                 },
                 {
                     "key": "queryParameters[1].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -13613,7 +13277,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-28T08:35:17.893Z",
-        "updatedAt": "2024-08-09T09:27:47.382Z",
+        "updatedAt": "2024-08-09T15:25:39.001Z",
         "deleted": false,
         "policies": [
             {
@@ -13644,7 +13308,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getCounterpartiesforSelect"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -13668,7 +13332,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getCounterpartiesforSelect"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -13684,7 +13348,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-12-29T08:52:41.933Z",
-        "updatedAt": "2024-08-09T09:26:50.632Z",
+        "updatedAt": "2024-08-09T15:24:19.347Z",
         "deleted": false,
         "policies": [
             {
@@ -13715,7 +13379,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getStages"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -13739,7 +13403,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getStages"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -13755,7 +13419,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-01-04T14:01:10.196Z",
-        "updatedAt": "2024-08-09T09:27:19.841Z",
+        "updatedAt": "2024-08-09T15:25:09.788Z",
         "deleted": false,
         "policies": [
             {
@@ -13786,7 +13450,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getSections?parentStageId={{newTaskSelectStep.selectedOptionValue}}&projectIds={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -13800,16 +13464,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "parentStageId",
-                        "value": "{{newTaskSelectStep.selectedOptionValue}}"
-                    },
-                    {
-                        "key": "projectIds",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -13819,17 +13474,17 @@
                         "value": true
                     }
                 ],
-                "path": "/getSections"
+                "path": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "queryParameters[0].value"
                 },
                 {
                     "key": "queryParameters[1].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -13843,7 +13498,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-01-04T14:07:17.609Z",
-        "updatedAt": "2024-08-09T09:27:12.096Z",
+        "updatedAt": "2024-08-09T15:24:56.292Z",
         "deleted": false,
         "policies": [
             {
@@ -13874,7 +13529,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getGroup?parentSectionId={{newTaskSelectSection.selectedOptionValue}}&parentStageId={{newTaskSelectStep.selectedOptionValue}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -13888,16 +13543,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "parentSectionId",
-                        "value": "{{newTaskSelectSection.selectedOptionValue}}"
-                    },
-                    {
-                        "key": "parentStageId",
-                        "value": "{{newTaskSelectStep.selectedOptionValue}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -13907,17 +13553,17 @@
                         "value": true
                     }
                 ],
-                "path": "/getGroup"
+                "path": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "queryParameters[1].value"
                 },
                 {
                     "key": "queryParameters[0].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -13931,7 +13577,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-01-04T14:21:03.439Z",
-        "updatedAt": "2024-08-09T09:26:55.952Z",
+        "updatedAt": "2024-08-09T15:24:27.870Z",
         "deleted": false,
         "policies": [
             {
@@ -13962,7 +13608,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/addNewTask?parentGroupId={{newTaskSelectGroup.selectedOptionValue}}&parentSectionId={{newTaskSelectSection.selectedOptionValue}}&parentStageId={{newTaskSelectStep.selectedOptionValue}}&projectId={{main.URL.queryParams._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -13981,24 +13627,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "parentGroupId",
-                        "value": "{{newTaskSelectGroup.selectedOptionValue}}"
-                    },
-                    {
-                        "key": "parentSectionId",
-                        "value": "{{newTaskSelectSection.selectedOptionValue}}"
-                    },
-                    {
-                        "key": "parentStageId",
-                        "value": "{{newTaskSelectStep.selectedOptionValue}}"
-                    },
-                    {
-                        "key": "projectId",
-                        "value": "{{main.URL.queryParams._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -14009,7 +13638,7 @@
                     }
                 ],
                 "body": "{\n\t\"name\": {{JSON.stringify(newTaskNameInput.text)}},\n   \"status\": {{JSON.stringify(newDocumentStatusLabel.text)}},\n\t \"startDate\":{{JSON.stringify(newTaskDateStart.formattedDate)}},\n   \"deadline\":{{JSON.stringify(newTaskDateFinish.formattedDate)}}\n}",
-                "path": "/addNewTask"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -14046,13 +13675,13 @@
                 "JSON.stringify(newDocumentStatusLabel.text)",
                 "JSON.stringify(newTaskDateStart.formattedDate)",
                 "JSON.stringify(newTaskDateFinish.formattedDate)",
-                "main.env.nr,2024-01-04T16:01:02.968Z,2024-08-09T09:00:06.092Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr"
+                "main.env.nr,2024-01-04T16:01:02.968Z,2024-08-09T15:23:48.936Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,{{main.env.nr"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-01-04T16:01:02.968Z",
-        "updatedAt": "2024-08-09T09:26:24.413Z",
+        "updatedAt": "2024-08-09T15:23:51.670Z",
         "deleted": false,
         "policies": [
             {
@@ -14083,7 +13712,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getUser?_id={{main.user.auth_module.user.info.user._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -14097,12 +13726,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.user.auth_module.user.info.user._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -14112,14 +13736,14 @@
                         "value": true
                     }
                 ],
-                "path": "/getUser"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
-                    "key": "datasourceUrl"
+                    "key": "queryParameters[0].value"
                 },
                 {
-                    "key": "queryParameters[0].value"
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -14132,7 +13756,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-01-15T12:42:13.553Z",
-        "updatedAt": "2024-08-09T09:30:47.668Z",
+        "updatedAt": "2024-08-09T15:29:42.251Z",
         "deleted": false,
         "policies": [
             {
@@ -14203,7 +13827,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/stages?_id={{progectTemplateTable.selectedRow.parentStageId}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -14217,12 +13841,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{progectTemplateTable.selectedRow.parentStageId}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -14232,14 +13851,14 @@
                         "value": true
                     }
                 ],
-                "path": "/stages"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
-                    "key": "datasourceUrl"
+                    "key": "queryParameters[0].value"
                 },
                 {
-                    "key": "queryParameters[0].value"
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -14252,7 +13871,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-01-17T21:19:56.262Z",
-        "updatedAt": "2024-08-09T09:27:18.119Z",
+        "updatedAt": "2024-08-09T15:25:05.405Z",
         "deleted": false,
         "policies": [
             {
@@ -14283,7 +13902,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/groups?_id={{progectTemplateTable.selectedRow.parentGroupId}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -14297,12 +13916,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{progectTemplateTable.selectedRow.parentGroupId}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -14312,14 +13926,14 @@
                         "value": true
                     }
                 ],
-                "path": "/groups"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
-                    "key": "datasourceUrl"
+                    "key": "queryParameters[0].value"
                 },
                 {
-                    "key": "queryParameters[0].value"
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -14332,7 +13946,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-01-17T21:25:55.825Z",
-        "updatedAt": "2024-08-09T09:26:59.606Z",
+        "updatedAt": "2024-08-09T15:24:34.473Z",
         "deleted": false,
         "policies": [
             {
@@ -14363,7 +13977,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/sections?_id={{progectTemplateTable.selectedRow.parentSectionId}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -14377,12 +13991,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{progectTemplateTable.selectedRow.parentSectionId}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -14392,14 +14001,14 @@
                         "value": true
                     }
                 ],
-                "path": "/sections"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
-                    "key": "datasourceUrl"
+                    "key": "queryParameters[0].value"
                 },
                 {
-                    "key": "queryParameters[0].value"
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -14412,7 +14021,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-01-17T21:37:31.633Z",
-        "updatedAt": "2024-08-09T09:27:14.651Z",
+        "updatedAt": "2024-08-09T15:25:00.294Z",
         "deleted": false,
         "policies": [
             {
@@ -14479,7 +14088,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getTasksForAddRelated?_id={{progectTemplateTable.selectedRow.parentGroupId}}&projectTemplateId={{progectTemplateTable.selectedRow.projectTemplateId}}&taskId={{progectTemplateTable.selectedRow._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -14493,20 +14102,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{progectTemplateTable.selectedRow.parentGroupId}}"
-                    },
-                    {
-                        "key": "projectTemplateId",
-                        "value": "{{progectTemplateTable.selectedRow.projectTemplateId}}"
-                    },
-                    {
-                        "key": "taskId",
-                        "value": "{{progectTemplateTable.selectedRow._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -14516,12 +14112,9 @@
                         "value": true
                     }
                 ],
-                "path": "/getTasksForAddRelated"
+                "path": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "queryParameters[0].value"
                 },
@@ -14530,6 +14123,9 @@
                 },
                 {
                     "key": "queryParameters[2].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -14544,7 +14140,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-01-18T09:09:31.696Z",
-        "updatedAt": "2024-08-09T09:27:21.886Z",
+        "updatedAt": "2024-08-09T15:25:13.865Z",
         "deleted": false,
         "policies": [
             {
@@ -14575,7 +14171,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getTasksForGant?_id={{main.URL.queryParams._id}}&status={{JSON.stringify(selectStatusForGant.selectedOptionValue)}}&startDate={{JSON.stringify(startDateForGant.formattedDate)}}&deadline={{JSON.stringify(endDateForGant.formattedDate)}}&isOncriticalPath={{JSON.stringify(criticalWayCheckboxForGant.isChecked)}}&performer={{JSON.stringify(selectConterpartiesForGant.selectedOptionValue)}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -14594,32 +14190,7 @@
                         "value": "application/json"
                     }
                 ],
-                "queryParameters": [
-                    {
-                        "key": "_id",
-                        "value": "{{main.URL.queryParams._id}}"
-                    },
-                    {
-                        "key": "status",
-                        "value": "{{JSON.stringify(selectStatusForGant.selectedOptionValue)}}"
-                    },
-                    {
-                        "key": "startDate",
-                        "value": "{{JSON.stringify(startDateForGant.formattedDate)}}"
-                    },
-                    {
-                        "key": "deadline",
-                        "value": "{{JSON.stringify(endDateForGant.formattedDate)}}"
-                    },
-                    {
-                        "key": "isOncriticalPath",
-                        "value": "{{JSON.stringify(criticalWayCheckboxForGant.isChecked)}}"
-                    },
-                    {
-                        "key": "performer",
-                        "value": "{{JSON.stringify(selectConterpartiesForGant.selectedOptionValue)}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "application/json"
@@ -14629,13 +14200,10 @@
                         "value": true
                     }
                 ],
-                "path": "/getTasksForGant",
+                "path": "",
                 "body": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "path"
                 },
@@ -14656,6 +14224,9 @@
                 },
                 {
                     "key": "queryParameters[5].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -14673,7 +14244,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-01-22T09:05:32.032Z",
-        "updatedAt": "2024-08-09T09:27:25.545Z",
+        "updatedAt": "2024-08-09T15:25:18.140Z",
         "deleted": false,
         "policies": [
             {
@@ -14704,7 +14275,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/delTaksDev?taskId={{progectTemplateTable.selectedRow._id}}&depTaskId={{List7.selectedItem._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -14718,16 +14289,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "taskId",
-                        "value": "{{progectTemplateTable.selectedRow._id}}"
-                    },
-                    {
-                        "key": "depTaskId",
-                        "value": "{{List7.selectedItem._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -14737,12 +14299,9 @@
                         "value": true
                     }
                 ],
-                "path": "/delTaksDev"
+                "path": ""
             },
             "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                },
                 {
                     "key": "path"
                 },
@@ -14751,6 +14310,9 @@
                 },
                 {
                     "key": "queryParameters[1].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
@@ -14764,7 +14326,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-01-24T12:46:31.834Z",
-        "updatedAt": "2024-08-09T09:26:28.689Z",
+        "updatedAt": "2024-08-09T15:23:56.854Z",
         "deleted": false,
         "policies": [
             {
@@ -14795,7 +14357,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/image?baner={{main.store.baner}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -14809,12 +14371,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "baner",
-                        "value": "{{main.store.baner}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -14824,7 +14381,7 @@
                         "value": true
                     }
                 ],
-                "path": "/image"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -14842,13 +14399,13 @@
             "jsonPathKeys": [
                 "main.env.nr",
                 "main.store.baner",
-                "main.env.nr,2024-08-09T10:20:43.408Z,2024-08-09T10:24:05.492Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr,2024-08-09T10:20:43.408Z,2024-08-09T10:24:12.340Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr"
+                "main.env.nr,2024-08-09T10:20:43.408Z,2024-08-09T10:25:12.946Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.nr,2024-08-09T10:20:43.408Z,2024-08-09T15:22:16.884Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,{{main.env.nr"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-08-09T10:20:43.408Z",
-        "updatedAt": "2024-08-09T10:25:12.946Z",
+        "updatedAt": "2024-08-09T15:22:20.294Z",
         "deleted": false,
         "policies": [
             {
@@ -14879,7 +14436,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://{{main.env.nr}}"
+                    "url": "{{main.env.nr}}/getGoogleUrl"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -14903,9 +14460,13 @@
                         "value": true
                     }
                 ],
-                "path": "/getGoogleUrl"
+                "path": ""
             },
-            "dynamicBindingPathList": [],
+            "dynamicBindingPathList": [
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
@@ -14915,7 +14476,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-08-09T11:47:16.074Z",
-        "updatedAt": "2024-08-09T11:47:37.830Z",
+        "updatedAt": "2024-08-09T15:23:28.871Z",
         "deleted": false,
         "policies": [
             {

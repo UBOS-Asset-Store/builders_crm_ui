@@ -1,0 +1,619 @@
+[
+    {
+        "_id": "6364e18e65d44c1100000006",
+        "name": "JSObject1",
+        "pageId": "User Management",
+        "organizationId": "Org",
+        "body": "export default {\n\teditUserRole: async () => {\n\t\tawait editUserRole.run();\n\t\tcloseModal('ModalEditRole');\n\t\tgetUsers.run();\n\t},\n\tcreateUser: async () => {\n\t\tawait createUser.run();\n\t\tcloseModal('ModalCreateUser');\n\t\tgetUsers.run();\n\t}\n}",
+        "variables": [],
+        "actions": [
+            {
+                "_id": "636a250dc2e17400119dc7f6",
+                "name": "createUser",
+                "collectionId": "6364e18e65d44c1100000006",
+                "executeOnLoad": false,
+                "pageId": "User Management",
+                "organizationId": "Org",
+                "actionConfiguration": {
+                    "body": "async () => {\n\t\tawait createUser.run();\n\t\tcloseModal('ModalCreateUser');\n\t\tgetUsers.run();\n\t}",
+                    "isAsync": true,
+                    "timeoutInMillisecond": 10000,
+                    "jsArguments": [],
+                    "paginationType": "NONE",
+                    "encodeParamsToggle": true
+                },
+                "applicationId": "jetsondashboard",
+                "datasource": {
+                    "isValid": true,
+                    "messages": [],
+                    "name": "UNUSED_DATASOURCE",
+                    "new": true,
+                    "organizationId": "Org",
+                    "pluginId": "",
+                    "userPermissions": []
+                },
+                "dynamicBindingPathList": [
+                    {
+                        "key": "body"
+                    }
+                ],
+                "fullyQualifiedName": "JSObject1.createUser",
+                "isValid": true,
+                "jsonPathKeys": [
+                    "async () => {\n\t\tawait createUser.run();\n\t\tcloseModal('ModalCreateUser');\n\t\tgetUsers.run();\n\t}"
+                ],
+                "pluginType": "JS",
+                "id": "636a250dc2e17400119dc7f6"
+            },
+            {
+                "_id": "6364e18ec2e17400119dc7f1",
+                "name": "editUserRole",
+                "pageId": "User Management",
+                "organizationId": "Org",
+                "executeOnLoad": false,
+                "actionConfiguration": {
+                    "body": "async () => {\n\t\tawait editUserRole.run();\n\t\tcloseModal('ModalEditRole');\n\t\tgetUsers.run();\n\t}",
+                    "isAsync": true,
+                    "timeoutInMillisecond": 10000,
+                    "jsArguments": [],
+                    "paginationType": "NONE",
+                    "encodeParamsToggle": true
+                },
+                "clientSideExecution": true,
+                "collectionId": "6364e18e65d44c1100000006",
+                "applicationId": "jetsondashboard",
+                "datasource": {
+                    "isValid": true,
+                    "messages": [],
+                    "name": "UNUSED_DATASOURCE",
+                    "new": true,
+                    "organizationId": "Org",
+                    "pluginId": "",
+                    "userPermissions": []
+                },
+                "dynamicBindingPathList": [
+                    {
+                        "key": "body"
+                    }
+                ],
+                "fullyQualifiedName": "JSObject1.myFun2",
+                "isValid": true,
+                "jsonPathKeys": [
+                    "async () => {\n\t\t//use async-await or promises\n\t}"
+                ],
+                "pluginType": "JS",
+                "id": "6364e18ec2e17400119dc7f1"
+            }
+        ],
+        "applicationId": "jetsondashboard",
+        "pluginType": "JS",
+        "id": "6364e18e65d44c1100000006",
+        "actionIds": [],
+        "archivedActionIds": [],
+        "archivedActions": [],
+        "pluginId": "JS",
+        "workspaceId": "Org"
+    },
+    {
+        "id": "6556aea48b99f45cce852dd0",
+        "name": "JSObject1",
+        "pageId": "Projects",
+        "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tmyFun2:  () => {\n  showModal('Modal1')\n\t},\n\tmyFun3:  ()=>{\n    try {\n        let a = getProjects1?.data?.filter(e => e._id == Accordion2Copy?.selectedValue?.split('+')[1]?.trim());\n        if (a && a.length > 0) {\n            storeValue(\"_idProject\", a[0]._id);\n        } else {\n            console.log(\"No matching project found.\");\n        }\n    } catch (error) {\n        console.error(\"An error occurred:\", \"тут\"); \n    }\n}\n}",
+        "variables": [
+            {
+                "name": "myVar1",
+                "value": []
+            },
+            {
+                "name": "myVar2",
+                "value": {}
+            }
+        ],
+        "actions": [
+            {
+                "name": "myFun1",
+                "pageId": "Projects",
+                "executeOnLoad": false,
+                "actionConfiguration": {
+                    "body": "() => {\n\t\t//write code here\n\t}",
+                    "isAsync": false,
+                    "timeoutInMillisecond": 10000,
+                    "jsArguments": [],
+                    "paginationType": "NONE",
+                    "encodeParamsToggle": true
+                },
+                "clientSideExecution": true,
+                "_id": "6556aea48b99f45cce852dd1",
+                "id": "6556aea48b99f45cce852dd1",
+                "collectionId": "6556aea48b99f45cce852dd0",
+                "confirmBeforeExecute": false,
+                "applicationId": "jetsondashboard",
+                "datasource": {
+                    "isValid": true,
+                    "messages": [],
+                    "name": "UNUSED_DATASOURCE",
+                    "new": true,
+                    "pluginId": "",
+                    "userPermissions": []
+                },
+                "dynamicBindingPathList": [
+                    {
+                        "key": "body"
+                    }
+                ],
+                "fullyQualifiedName": "JSObject1.myFun1",
+                "isValid": true,
+                "jsonPathKeys": [
+                    "() => {\n\t\t//write code here\n\t}"
+                ],
+                "pluginType": "JS"
+            },
+            {
+                "name": "myFun2",
+                "pageId": "Projects",
+                "executeOnLoad": false,
+                "actionConfiguration": {
+                    "body": "() => {\n  showModal('Modal1')\n\t}",
+                    "isAsync": true,
+                    "timeoutInMillisecond": 10000,
+                    "jsArguments": [],
+                    "paginationType": "NONE",
+                    "encodeParamsToggle": true
+                },
+                "clientSideExecution": true,
+                "_id": "6556aea48b99f45cce852dd2",
+                "id": "6556aea48b99f45cce852dd2",
+                "collectionId": "6556aea48b99f45cce852dd0",
+                "confirmBeforeExecute": false,
+                "applicationId": "jetsondashboard",
+                "datasource": {
+                    "isValid": true,
+                    "messages": [],
+                    "name": "UNUSED_DATASOURCE",
+                    "new": true,
+                    "pluginId": "",
+                    "userPermissions": []
+                },
+                "dynamicBindingPathList": [
+                    {
+                        "key": "body"
+                    }
+                ],
+                "fullyQualifiedName": "JSObject1.myFun2",
+                "isValid": true,
+                "jsonPathKeys": [
+                    "async () => {\n\t\t//use async-await or promises\n\t}"
+                ],
+                "pluginType": "JS"
+            },
+            {
+                "name": "myFun3",
+                "collectionId": "6556aea48b99f45cce852dd0",
+                "executeOnLoad": false,
+                "pageId": "Projects",
+                "actionConfiguration": {
+                    "body": "()=>{\n    try {\n        let a = getProjects1?.data?.filter(e => e._id == Accordion2Copy?.selectedValue?.split('+')[1]?.trim());\n        if (a && a.length > 0) {\n            storeValue(\"_idProject\", a[0]._id);\n        } else {\n            console.log(\"No matching project found.\");\n        }\n    } catch (error) {\n        console.error(\"An error occurred:\", \"тут\"); \n    }\n}",
+                    "isAsync": false,
+                    "timeoutInMillisecond": 10000,
+                    "jsArguments": [],
+                    "paginationType": "NONE",
+                    "encodeParamsToggle": true
+                },
+                "_id": "655fd2965244237e284207b9",
+                "id": "655fd2965244237e284207b9",
+                "applicationId": "jetsondashboard",
+                "datasource": {
+                    "isValid": true,
+                    "messages": [],
+                    "name": "UNUSED_DATASOURCE",
+                    "new": true,
+                    "pluginId": "",
+                    "userPermissions": []
+                },
+                "dynamicBindingPathList": [
+                    {
+                        "key": "body"
+                    }
+                ],
+                "fullyQualifiedName": "JSObject1.myFun3",
+                "isValid": true,
+                "jsonPathKeys": [
+                    "()=>{\n\t\t\n\t}"
+                ],
+                "pluginType": "JS",
+                "executeOnClose": false
+            }
+        ],
+        "applicationId": "jetsondashboard",
+        "pluginType": "JS",
+        "_id": "6556aea48b99f45cce852dd0",
+        "pluginId": "JS",
+        "actionIds": [],
+        "archivedActionIds": [],
+        "archivedActions": []
+    },
+    {
+        "id": "655fdc595244237e284207ba",
+        "name": "JSObject1",
+        "pageId": "Counterparties",
+        "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\n\tmyFun5: async () => {\n\t\tlet a =  getProjects1?.data.filter(e=> e._id == Accordion2Copy?.selectedValue?.split('+')[1]?.trim() );\n\t\tstoreValue(\"_idProject\", a[0]?._id)\n\t}\n}",
+        "variables": [
+            {
+                "name": "myVar1",
+                "value": []
+            },
+            {
+                "name": "myVar2",
+                "value": {}
+            }
+        ],
+        "actions": [
+            {
+                "name": "myFun5",
+                "pageId": "Counterparties",
+                "executeOnLoad": false,
+                "actionConfiguration": {
+                    "body": "async () => {\n\t\tlet a =  getProjects1?.data.filter(e=> e._id == Accordion2Copy?.selectedValue?.split('+')[1]?.trim() );\n\t\tstoreValue(\"_idProject\", a[0]?._id)\n\t}",
+                    "isAsync": true,
+                    "timeoutInMillisecond": 10000,
+                    "jsArguments": [],
+                    "paginationType": "NONE",
+                    "encodeParamsToggle": true
+                },
+                "clientSideExecution": true,
+                "_id": "655fdc595244237e284207bc",
+                "id": "655fdc595244237e284207bc",
+                "collectionId": "655fdc595244237e284207ba",
+                "confirmBeforeExecute": false,
+                "applicationId": "jetsondashboard",
+                "datasource": {
+                    "isValid": true,
+                    "messages": [],
+                    "name": "UNUSED_DATASOURCE",
+                    "new": true,
+                    "pluginId": "",
+                    "userPermissions": []
+                },
+                "dynamicBindingPathList": [
+                    {
+                        "key": "body"
+                    }
+                ],
+                "fullyQualifiedName": "JSObject1.myFun5",
+                "isValid": true,
+                "jsonPathKeys": [
+                    "async () => {\n\t\t//use async-await or promises\n\t}"
+                ],
+                "pluginType": "JS",
+                "executeOnClose": true
+            }
+        ],
+        "applicationId": "jetsondashboard",
+        "pluginType": "JS",
+        "_id": "655fdc595244237e284207ba",
+        "pluginId": "JS",
+        "actionIds": [],
+        "archivedActionIds": [],
+        "archivedActions": []
+    },
+    {
+        "id": "655fdd515244237e284207be",
+        "name": "JSObject1",
+        "pageId": "Users",
+        "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\nmyFun4:() => {\n    try {\n        let a = getProjects1?.data.filter(e => e._id == Accordion2Copy?.selectedValue?.split('+')[1]?.trim());\n        if (a && a.length > 0) {\n            storeValue(\"_idProject\", a[0]._id);\n        } else {\n            console.error(\"No matching project found.\");\n        }\n    } catch (error) {\n        console.error(\"An error occurred:\", error);\n    }\n}\n\n}",
+        "variables": [
+            {
+                "name": "myVar1",
+                "value": []
+            },
+            {
+                "name": "myVar2",
+                "value": {}
+            }
+        ],
+        "actions": [
+            {
+                "name": "myFun4",
+                "pageId": "Users",
+                "executeOnLoad": false,
+                "actionConfiguration": {
+                    "body": "() => {\n    try {\n        let a = getProjects1?.data.filter(e => e._id == Accordion2Copy?.selectedValue?.split('+')[1]?.trim());\n        if (a && a.length > 0) {\n            storeValue(\"_idProject\", a[0]._id);\n        } else {\n            console.error(\"No matching project found.\");\n        }\n    } catch (error) {\n        console.error(\"An error occurred:\", error);\n    }\n}",
+                    "isAsync": false,
+                    "timeoutInMillisecond": 10000,
+                    "jsArguments": [],
+                    "paginationType": "NONE",
+                    "encodeParamsToggle": true
+                },
+                "clientSideExecution": true,
+                "_id": "655fdd515244237e284207c0",
+                "id": "655fdd515244237e284207c0",
+                "collectionId": "655fdd515244237e284207be",
+                "confirmBeforeExecute": false,
+                "applicationId": "jetsondashboard",
+                "datasource": {
+                    "isValid": true,
+                    "messages": [],
+                    "name": "UNUSED_DATASOURCE",
+                    "new": true,
+                    "pluginId": "",
+                    "userPermissions": []
+                },
+                "dynamicBindingPathList": [
+                    {
+                        "key": "body"
+                    }
+                ],
+                "fullyQualifiedName": "JSObject1.myFun4",
+                "isValid": true,
+                "jsonPathKeys": [
+                    "async () => {\n\t\t//use async-await or promises\n\t}"
+                ],
+                "pluginType": "JS",
+                "executeOnClose": false
+            }
+        ],
+        "applicationId": "jetsondashboard",
+        "pluginType": "JS",
+        "_id": "655fdd515244237e284207be",
+        "pluginId": "JS",
+        "actionIds": [],
+        "archivedActionIds": [],
+        "archivedActions": []
+    },
+    {
+        "id": "6570bbeeb6b32865fd0e8f8f",
+        "name": "findParent",
+        "pageId": "Structure",
+        "body": "export default {\n\n\tfindParentStageByKey: (data, key) => {\nfor (const stage of data) {\n    if (stage.children) {\n      // Перевіряємо етап-група-задача\n      for (const group of stage.children) {\n        if (group.children) {\n          for (const task of group.children) {\n            if (task._id === key) {\n              return [{ label: stage.name,value: stage.key}, {label: group.name, value: group._id}];\n            }\n          }\n        }\n      }\n      // Перевіряємо етап-секція-група-задача\n      for (const section of stage.children) {\n        if (section.children) {\n          for (const group of section.children) {\n            if (group.children) {\n              for (const task of group.children) {\n                if (task._id === key) {\n                  return [{ label: stage.name,value: stage.key},{ label: section.name,value: section._id}, {label: group.name, value: group._id}];\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n  return null;\n},\n\tconvertText:(text)=>{\n\t\tconst decoder = new TextDecoder('utf-8');\n  const decodedText = decoder.decode(new Uint8Array([...text].map(char => char.charCodeAt(0))));\n  return decodedText;\n\t},\n\tdateConver:(data)=>{\n\n  let [datePart, timePart] = data.split(' ');\n\n\n  let [day, month, year] = datePart.split('/');\n\n\n  let [hours, minutes] = timePart.split(':');\n\n\n  let inputDateTime = new Date(year, month - 1, day, hours, minutes);\n\n\n  let resultDateTime = new Date(inputDateTime.getTime() + 3 * 24 * 60 * 60 * 1000);\n\n  return resultDateTime.toISOString();\n},\ndatevigual:(data)=>{\n\t\t// Рядок з датою у вказаному форматі\nlet dateString = data;\n\n// Розділити рядок на компоненти дати та часу\nlet [datePart, timePart] = dateString.split(', ');\n\n// Розділити компонент дати на день, місяць та рік\nlet [day, month, year] = datePart.split('.');\n\n// Розділити компонент часу на години, хвилини та секунди\nlet [hours, minutes, seconds] = timePart.split(':');\n\n// Створити об'єкт Date з компонентами\nlet dateObject = new Date(`${year}-${month}-${day}T${hours}:${minutes}:${seconds}`);\n\n// Отримати формат ISO 8601\nlet isoDateString = dateObject.toISOString();\n\nreturn isoDateString\n\n\t}\n\n\n\n\n\n}",
+        "variables": [],
+        "actions": [
+            {
+                "name": "findParentStageByKey",
+                "collectionId": "6570bbeeb6b32865fd0e8f8f",
+                "executeOnLoad": false,
+                "pageId": "Structure",
+                "actionConfiguration": {
+                    "body": "(data, key) => {\nfor (const stage of data) {\n    if (stage.children) {\n      // Перевіряємо етап-група-задача\n      for (const group of stage.children) {\n        if (group.children) {\n          for (const task of group.children) {\n            if (task._id === key) {\n              return [{ label: stage.name,value: stage.key}, {label: group.name, value: group._id}];\n            }\n          }\n        }\n      }\n      // Перевіряємо етап-секція-група-задача\n      for (const section of stage.children) {\n        if (section.children) {\n          for (const group of section.children) {\n            if (group.children) {\n              for (const task of group.children) {\n                if (task._id === key) {\n                  return [{ label: stage.name,value: stage.key},{ label: section.name,value: section._id}, {label: group.name, value: group._id}];\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n  return null;\n}",
+                    "isAsync": false,
+                    "timeoutInMillisecond": 10000,
+                    "jsArguments": [
+                        {
+                            "name": "data"
+                        },
+                        {
+                            "name": "key"
+                        }
+                    ],
+                    "paginationType": "NONE",
+                    "encodeParamsToggle": true
+                },
+                "_id": "6570bc02b6b32865fd0e8f92",
+                "id": "6570bc02b6b32865fd0e8f92",
+                "applicationId": "jetsondashboard",
+                "datasource": {
+                    "isValid": true,
+                    "messages": [],
+                    "name": "UNUSED_DATASOURCE",
+                    "new": true,
+                    "pluginId": "",
+                    "userPermissions": []
+                },
+                "dynamicBindingPathList": [
+                    {
+                        "key": "body"
+                    }
+                ],
+                "fullyQualifiedName": "findParent.findParentStageByKey",
+                "isValid": true,
+                "jsonPathKeys": [
+                    "(data, key) => {\nfor (const stage of data) {\n    if (stage.children) {\n      // Перевіряємо етап-група-задача\n      for (const group of stage.children) {\n        if (group.children) {\n          for (const task of group.children) {\n            if (task.key === key) {\n              return [{ label: stage.name,value: stage.name}, {label: group.name, value: group.name}];\n            }\n          }\n        }\n      }\n      // Перевіряємо етап-секція-група-задача\n      for (const section of stage.children) {\n        if (section.children) {\n          for (const group of section.children) {\n            if (group.children) {\n              for (const task of group.children) {\n                if (task.key === key) {\n                  return [{ label: stage.name,value: stage.name},{ label: section.name,value: section.name}, {label: group.name, value: group.name}];\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n  return null;\n}"
+                ],
+                "pluginType": "JS"
+            },
+            {
+                "name": "convertText",
+                "collectionId": "6570bbeeb6b32865fd0e8f8f",
+                "executeOnLoad": false,
+                "pageId": "Structure",
+                "actionConfiguration": {
+                    "body": "(text)=>{\n\t\tconst decoder = new TextDecoder('utf-8');\n  const decodedText = decoder.decode(new Uint8Array([...text].map(char => char.charCodeAt(0))));\n  return decodedText;\n\t}",
+                    "isAsync": false,
+                    "timeoutInMillisecond": 10000,
+                    "jsArguments": [
+                        {
+                            "name": "text"
+                        }
+                    ],
+                    "paginationType": "NONE",
+                    "encodeParamsToggle": true
+                },
+                "_id": "657af5c7d4a962353e5d3c9a",
+                "id": "657af5c7d4a962353e5d3c9a",
+                "applicationId": "jetsondashboard",
+                "datasource": {
+                    "isValid": true,
+                    "messages": [],
+                    "name": "UNUSED_DATASOURCE",
+                    "new": true,
+                    "pluginId": "",
+                    "userPermissions": []
+                },
+                "dynamicBindingPathList": [
+                    {
+                        "key": "body"
+                    }
+                ],
+                "fullyQualifiedName": "findParent.convertText",
+                "isValid": true,
+                "jsonPathKeys": [
+                    "(text)=>{\n\t\t\n\t}"
+                ],
+                "pluginType": "JS"
+            },
+            {
+                "name": "dateConver",
+                "collectionId": "6570bbeeb6b32865fd0e8f8f",
+                "executeOnLoad": false,
+                "pageId": "Structure",
+                "actionConfiguration": {
+                    "body": "(data)=>{\n\n  let [datePart, timePart] = data.split(' ');\n\n\n  let [day, month, year] = datePart.split('/');\n\n\n  let [hours, minutes] = timePart.split(':');\n\n\n  let inputDateTime = new Date(year, month - 1, day, hours, minutes);\n\n\n  let resultDateTime = new Date(inputDateTime.getTime() + 3 * 24 * 60 * 60 * 1000);\n\n  return resultDateTime.toISOString();\n}",
+                    "isAsync": false,
+                    "timeoutInMillisecond": 10000,
+                    "jsArguments": [
+                        {
+                            "name": "data"
+                        }
+                    ],
+                    "paginationType": "NONE",
+                    "encodeParamsToggle": true
+                },
+                "_id": "65a7e47738e821c57c5640a0",
+                "id": "65a7e47738e821c57c5640a0",
+                "applicationId": "jetsondashboard",
+                "datasource": {
+                    "isValid": true,
+                    "messages": [],
+                    "name": "UNUSED_DATASOURCE",
+                    "new": true,
+                    "pluginId": "",
+                    "userPermissions": []
+                },
+                "dynamicBindingPathList": [
+                    {
+                        "key": "body"
+                    }
+                ],
+                "fullyQualifiedName": "findParent.dateConver",
+                "isValid": true,
+                "jsonPathKeys": [
+                    "(data)=>{}"
+                ],
+                "pluginType": "JS"
+            },
+            {
+                "name": "datevigual",
+                "collectionId": "6570bbeeb6b32865fd0e8f8f",
+                "executeOnLoad": false,
+                "pageId": "Structure",
+                "actionConfiguration": {
+                    "body": "(data)=>{\n\t\t// Рядок з датою у вказаному форматі\nlet dateString = data;\n\n// Розділити рядок на компоненти дати та часу\nlet [datePart, timePart] = dateString.split(', ');\n\n// Розділити компонент дати на день, місяць та рік\nlet [day, month, year] = datePart.split('.');\n\n// Розділити компонент часу на години, хвилини та секунди\nlet [hours, minutes, seconds] = timePart.split(':');\n\n// Створити об'єкт Date з компонентами\nlet dateObject = new Date(`${year}-${month}-${day}T${hours}:${minutes}:${seconds}`);\n\n// Отримати формат ISO 8601\nlet isoDateString = dateObject.toISOString();\n\nreturn isoDateString\n\n\t}",
+                    "isAsync": false,
+                    "timeoutInMillisecond": 0,
+                    "jsArguments": []
+                }
+            }
+        ],
+        "applicationId": "jetsondashboard",
+        "pluginType": "JS",
+        "_id": "6570bbeeb6b32865fd0e8f8f",
+        "pluginId": "JS",
+        "actionIds": [],
+        "archivedActionIds": [],
+        "archivedActions": []
+    },
+    {
+        "id": "658026c7c9f11c33952f14dd",
+        "name": "JSObject1",
+        "pageId": "Сontracts",
+        "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tdecodedText:  (text) => {\n\t\tconst decoder = new TextDecoder('utf-8');\n  const decodedText = decoder.decode(new Uint8Array([...text].map(char => char.charCodeAt(0))));\n  return decodedText;\n\t}\n}",
+        "variables": [
+            {
+                "name": "myVar1",
+                "value": []
+            },
+            {
+                "name": "myVar2",
+                "value": {}
+            }
+        ],
+        "actions": [
+            {
+                "name": "myFun1",
+                "pageId": "Сontracts",
+                "executeOnLoad": false,
+                "actionConfiguration": {
+                    "body": "() => {\n\t\t//write code here\n\t}",
+                    "isAsync": false,
+                    "timeoutInMillisecond": 10000,
+                    "jsArguments": [],
+                    "paginationType": "NONE",
+                    "encodeParamsToggle": true
+                },
+                "clientSideExecution": true,
+                "_id": "658026c7c9f11c33952f14de",
+                "id": "658026c7c9f11c33952f14de",
+                "collectionId": "658026c7c9f11c33952f14dd",
+                "confirmBeforeExecute": false,
+                "applicationId": "jetsondashboard",
+                "datasource": {
+                    "isValid": true,
+                    "messages": [],
+                    "name": "UNUSED_DATASOURCE",
+                    "new": true,
+                    "pluginId": "",
+                    "userPermissions": []
+                },
+                "dynamicBindingPathList": [
+                    {
+                        "key": "body"
+                    }
+                ],
+                "fullyQualifiedName": "JSObject1.myFun1",
+                "isValid": true,
+                "jsonPathKeys": [
+                    "() => {\n\t\t//write code here\n\t}"
+                ],
+                "pluginType": "JS"
+            },
+            {
+                "name": "decodedText",
+                "pageId": "Сontracts",
+                "executeOnLoad": false,
+                "actionConfiguration": {
+                    "body": "(text) => {\n\t\tconst decoder = new TextDecoder('utf-8');\n  const decodedText = decoder.decode(new Uint8Array([...text].map(char => char.charCodeAt(0))));\n  return decodedText;\n\t}",
+                    "isAsync": false,
+                    "timeoutInMillisecond": 10000,
+                    "jsArguments": [
+                        {
+                            "name": "text"
+                        }
+                    ],
+                    "paginationType": "NONE",
+                    "encodeParamsToggle": true
+                },
+                "clientSideExecution": true,
+                "_id": "658026c7c9f11c33952f14df",
+                "id": "658026c7c9f11c33952f14df",
+                "collectionId": "658026c7c9f11c33952f14dd",
+                "confirmBeforeExecute": false,
+                "applicationId": "jetsondashboard",
+                "datasource": {
+                    "isValid": true,
+                    "messages": [],
+                    "name": "UNUSED_DATASOURCE",
+                    "new": true,
+                    "pluginId": "",
+                    "userPermissions": []
+                },
+                "dynamicBindingPathList": [
+                    {
+                        "key": "body"
+                    }
+                ],
+                "fullyQualifiedName": "JSObject1.decodedText",
+                "isValid": true,
+                "jsonPathKeys": [
+                    "async () => {\n\t\t//use async-await or promises\n\t}"
+                ],
+                "pluginType": "JS"
+            }
+        ],
+        "applicationId": "jetsondashboard",
+        "pluginType": "JS",
+        "_id": "658026c7c9f11c33952f14dd",
+        "pluginId": "JS",
+        "actionIds": [],
+        "archivedActionIds": [],
+        "archivedActions": []
+    }
+]

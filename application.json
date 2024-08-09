@@ -1,0 +1,660 @@
+{
+    "_id": "62b41da7022a791200000002",
+    "name": "Authorization",
+    "slug": "jetsondashboard",
+    "organizationId": "Org",
+    "isPublic": true,
+    "createdAt": "2023-03-02T13:50:57.853Z",
+    "updatedAt": "2024-08-09T16:43:45.026Z",
+    "deleted": false,
+    "pages": [
+        {
+            "_id": "Modules",
+            "isDefault": false
+        },
+        {
+            "_id": "AdminRoles",
+            "isDefault": false
+        },
+        {
+            "_id": "User Management",
+            "isDefault": false
+        },
+        {
+            "_id": "Projects",
+            "isDefault": false
+        },
+        {
+            "_id": "Users",
+            "isDefault": false
+        },
+        {
+            "_id": "Home",
+            "isDefault": true
+        },
+        {
+            "_id": "Structure",
+            "isDefault": false
+        },
+        {
+            "_id": "LogInGoogle",
+            "isDefault": false
+        },
+        {
+            "_id": "Counterparties",
+            "isDefault": false
+        },
+        {
+            "_id": "Team",
+            "isDefault": false
+        },
+        {
+            "_id": "ProjectSettings",
+            "isDefault": false
+        },
+        {
+            "_id": "Сontracts",
+            "isDefault": false
+        },
+        {
+            "_id": "Tep",
+            "isDefault": false
+        },
+        {
+            "_id": "User profile",
+            "isDefault": false
+        },
+        {
+            "_id": "ViewDocument",
+            "isDefault": false
+        }
+    ],
+    "policies": [
+        {
+            "permission": "makePublic:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "read:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "publish:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "manage:applications",
+            "groups": [],
+            "users": []
+        }
+    ],
+    "global_setting": {
+        "favicon": "",
+        "title": "Visia",
+        "css": "https://prodnr-650e926d920d771100000117.ubos.tech/css"
+    },
+    "lastDeployedAt": "2022-10-19T15:59:36.363Z",
+    "is_custom_auth": true,
+    "auth_mode_setting": {
+        "login_id": "Home",
+        "auth_node": "https://${env.get(\"nr\")}/check_tokens",
+        "registry_id": "Registration",
+        "other_pages": [
+            "Home",
+            "LogInGoogle"
+        ]
+    },
+    "settings_data": {
+        "httpIns": []
+    },
+    "isMenu": false,
+    "function_dsl": [
+        {
+            "isVisible": true,
+            "backgroundColor": "#1D1D1D",
+            "widgetName": "SidebarFunction",
+            "containerStyle": "card",
+            "borderColor": "transparent",
+            "borderWidth": "0",
+            "borderRadius": "",
+            "boxShadow": "NONE",
+            "animateLoading": true,
+            "dontLookPage": [
+                "Registration",
+                "LoginTest",
+                "Info",
+                "PasswordChanged",
+                "Home",
+                "Google_Login",
+                "FinishRegister",
+                "User Management",
+                "AdminRoles",
+                "Modules",
+                "LogIn",
+                "LogInGoogle",
+                "Page5"
+            ],
+            "children": [
+                {
+                    "isVisible": true,
+                    "widgetName": "Canvas10",
+                    "version": 1,
+                    "detachFromLayout": true,
+                    "type": "CANVAS_WIDGET",
+                    "hideCard": true,
+                    "displayName": "Canvas",
+                    "key": "jujkiotufx",
+                    "containerStyle": "none",
+                    "canExtend": false,
+                    "children": [
+                        {
+                            "isVisible": true,
+                            "backgroundColor": "#292929",
+                            "widgetName": "Container1Copy",
+                            "containerStyle": "card",
+                            "borderColor": "transparent",
+                            "borderWidth": "0",
+                            "borderRadius": "10",
+                            "boxShadow": "NONE",
+                            "animateLoading": true,
+                            "children": [
+                                {
+                                    "isVisible": true,
+                                    "widgetName": "Canvas1Copy",
+                                    "version": 1,
+                                    "detachFromLayout": true,
+                                    "type": "CANVAS_WIDGET",
+                                    "hideCard": true,
+                                    "displayName": "Canvas",
+                                    "key": "svmt5df915",
+                                    "containerStyle": "none",
+                                    "canExtend": false,
+                                    "children": [
+                                        {
+                                            "isVisible": true,
+                                            "animateLoading": false,
+                                            "text": "Всі проекти ",
+                                            "buttonColor": "#292929",
+                                            "buttonVariant": "PRIMARY",
+                                            "placement": "START",
+                                            "widgetName": "Button3Copy",
+                                            "isDisabled": false,
+                                            "isDefaultClickDisabled": true,
+                                            "recaptchaType": "V3",
+                                            "version": 1,
+                                            "classStyle": "menu_btn ",
+                                            "type": "BUTTON_WIDGET",
+                                            "hideCard": false,
+                                            "displayName": "Button",
+                                            "key": "es0kqj75gh",
+                                            "iconSVG": "/static/media/icon.cca02633.svg",
+                                            "widgetId": "p412u0dhan",
+                                            "renderMode": "CANVAS",
+                                            "isLoading": false,
+                                            "parentColumnSpace": 2.128143310546875,
+                                            "parentRowSpace": 10,
+                                            "leftColumn": 0,
+                                            "rightColumn": 64,
+                                            "topRow": 0,
+                                            "bottomRow": 4,
+                                            "parentId": "gydq8abfu4",
+                                            "iconName": "new-grid-item",
+                                            "dynamicBindingPathList": [],
+                                            "dynamicTriggerPathList": [
+                                                {
+                                                    "key": "onClick"
+                                                }
+                                            ],
+                                            "boxShadow": "NONE",
+                                            "onClick": "{{navigateTo('Projects', {})}}",
+                                            "dynamicPropertyPathList": []
+                                        },
+                                        {
+                                            "isVisible": true,
+                                            "files": [],
+                                            "label": "Accordion",
+                                            "onClick": "",
+                                            "category": "",
+                                            "categoryItem": "",
+                                            "categorySubItem": "",
+                                            "onClickSub": "",
+                                            "onClickMain": "{{navigateTo(Accordion2Copy.selectedValue.split('?')[0].trim() ,{_id:Accordion2Copy.selectedValue.split('?')[1].trim() })}}",
+                                            "widgetName": "Accordion2Copy",
+                                            "shouldScrollContents": true,
+                                            "directionRtl": false,
+                                            "selectedValue": "555",
+                                            "array": "{{getProjects1.data}} ",
+                                            "classStyle": "accordion",
+                                            "type": "ACCORDION_WIDGET",
+                                            "hideCard": false,
+                                            "displayName": "Accordion",
+                                            "key": "l4bzbuxy21",
+                                            "iconSVG": "/static/media/icon.a3ebb3df.svg",
+                                            "widgetId": "ydhu6hm2o0",
+                                            "renderMode": "CANVAS",
+                                            "isLoading": false,
+                                            "parentColumnSpace": 2.4837493896484375,
+                                            "parentRowSpace": 10,
+                                            "leftColumn": 1,
+                                            "rightColumn": 63,
+                                            "topRow": 4,
+                                            "bottomRow": 39,
+                                            "parentId": "gydq8abfu4",
+                                            "dynamicBindingPathList": [
+                                                {
+                                                    "key": "array"
+                                                }
+                                            ],
+                                            "dynamicTriggerPathList": [
+                                                {
+                                                    "key": "onClickMain"
+                                                }
+                                            ],
+                                            "dynamicPropertyPathList": [
+                                                {
+                                                    "key": "onClickMain"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "minHeight": 400,
+                                    "widgetId": "gydq8abfu4",
+                                    "renderMode": "CANVAS",
+                                    "isLoading": false,
+                                    "parentColumnSpace": 1,
+                                    "parentRowSpace": 1,
+                                    "leftColumn": 0,
+                                    "rightColumn": 66.943359375,
+                                    "topRow": 0,
+                                    "bottomRow": 410,
+                                    "parentId": "x503ti797b"
+                                }
+                            ],
+                            "version": 1,
+                            "classStyle": "sidebar_menuWrapper_top ",
+                            "type": "CONTAINER_WIDGET",
+                            "hideCard": false,
+                            "displayName": "Container",
+                            "key": "erxtaaf53u",
+                            "iconSVG": "/static/media/icon.1977dca3.svg",
+                            "isCanvas": true,
+                            "widgetId": "x503ti797b",
+                            "renderMode": "CANVAS",
+                            "isLoading": false,
+                            "parentColumnSpace": 2.789306640625,
+                            "parentRowSpace": 10,
+                            "leftColumn": 3,
+                            "rightColumn": 60,
+                            "topRow": 11,
+                            "bottomRow": 46,
+                            "parentId": "p71ikl65rn",
+                            "dynamicBindingPathList": [],
+                            "dynamicTriggerPathList": [],
+                            "shouldScrollContents": true
+                        },
+                        {
+                            "isVisible": true,
+                            "text": "Quanta",
+                            "fontSize": "HEADING1",
+                            "fontStyle": "BOLD",
+                            "textAlign": "CENTER",
+                            "textColor": "#FFFFFF",
+                            "truncateButtonColor": "#FFC13D",
+                            "widgetName": "Text1Copy1",
+                            "shouldTruncate": false,
+                            "overflow": "NONE",
+                            "version": 1,
+                            "animateLoading": true,
+                            "type": "TEXT_WIDGET",
+                            "hideCard": false,
+                            "displayName": "Text",
+                            "key": "fdafuwws9v",
+                            "iconSVG": "/static/media/icon.97c59b52.svg",
+                            "widgetId": "66xczvuqm4",
+                            "renderMode": "CANVAS",
+                            "isLoading": false,
+                            "parentColumnSpace": 2.789306640625,
+                            "parentRowSpace": 10,
+                            "leftColumn": 4,
+                            "rightColumn": 62,
+                            "topRow": 1,
+                            "bottomRow": 9,
+                            "parentId": "p71ikl65rn",
+                            "dynamicBindingPathList": [],
+                            "dynamicTriggerPathList": [
+                                {
+                                    "key": "onClick"
+                                }
+                            ],
+                            "classStyle": "menuLogo",
+                            "onClick": "{{navigateTo('Projects',{pageName: \"Projects\"})}}"
+                        },
+                        {
+                            "isVisible": true,
+                            "backgroundColor": "",
+                            "widgetName": "Container17",
+                            "containerStyle": "card",
+                            "borderColor": "",
+                            "borderWidth": "0",
+                            "borderRadius": "0",
+                            "boxShadow": "NONE",
+                            "animateLoading": true,
+                            "children": [
+                                {
+                                    "isVisible": true,
+                                    "widgetName": "Canvas32",
+                                    "version": 1,
+                                    "detachFromLayout": true,
+                                    "type": "CANVAS_WIDGET",
+                                    "hideCard": true,
+                                    "displayName": "Canvas",
+                                    "key": "3mrfktio5p",
+                                    "containerStyle": "none",
+                                    "canExtend": false,
+                                    "children": [
+                                        {
+                                            "isVisible": "false",
+                                            "animateLoading": true,
+                                            "text": "Сповіщення",
+                                            "buttonColor": "#292929",
+                                            "buttonVariant": "PRIMARY",
+                                            "placement": "START",
+                                            "widgetName": "Button2Copy3",
+                                            "isDisabled": "false",
+                                            "isDefaultClickDisabled": true,
+                                            "recaptchaType": "V3",
+                                            "version": 1,
+                                            "classStyle": "",
+                                            "type": "BUTTON_WIDGET",
+                                            "hideCard": false,
+                                            "displayName": "Button",
+                                            "key": "es0kqj75gh",
+                                            "iconSVG": "/static/media/icon.cca02633.svg",
+                                            "widgetId": "6rbco18moa",
+                                            "renderMode": "CANVAS",
+                                            "isLoading": false,
+                                            "parentColumnSpace": 2.789306640625,
+                                            "parentRowSpace": 10,
+                                            "leftColumn": 6,
+                                            "rightColumn": 52,
+                                            "topRow": 0,
+                                            "bottomRow": 5,
+                                            "parentId": "1gzsmzdzgl",
+                                            "borderRadius": "ROUNDED",
+                                            "dynamicBindingPathList": [],
+                                            "dynamicTriggerPathList": [
+                                                {
+                                                    "key": "onClick"
+                                                }
+                                            ],
+                                            "iconName": "notifications",
+                                            "iconAlign": "left",
+                                            "onClick": "{{showModal('ModalNotification')}}",
+                                            "dynamicPropertyPathList": [
+                                                {
+                                                    "key": "isDisabled"
+                                                },
+                                                {
+                                                    "key": "isVisible"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "isVisible": true,
+                                            "animateLoading": true,
+                                            "text": "Ваш профіль",
+                                            "buttonColor": "#292929",
+                                            "buttonVariant": "PRIMARY",
+                                            "placement": "START",
+                                            "widgetName": "Button2CopyCopy",
+                                            "isDisabled": false,
+                                            "isDefaultClickDisabled": true,
+                                            "recaptchaType": "V3",
+                                            "version": 1,
+                                            "classStyle": "",
+                                            "type": "BUTTON_WIDGET",
+                                            "hideCard": false,
+                                            "displayName": "Button",
+                                            "key": "es0kqj75gh",
+                                            "iconSVG": "/static/media/icon.cca02633.svg",
+                                            "widgetId": "xre0okpre8",
+                                            "renderMode": "CANVAS",
+                                            "isLoading": false,
+                                            "parentColumnSpace": 2.789306640625,
+                                            "parentRowSpace": 10,
+                                            "leftColumn": 6,
+                                            "rightColumn": 52,
+                                            "topRow": 5,
+                                            "bottomRow": 10,
+                                            "parentId": "1gzsmzdzgl",
+                                            "borderRadius": "ROUNDED",
+                                            "dynamicBindingPathList": [],
+                                            "dynamicTriggerPathList": [
+                                                {
+                                                    "key": "onClick"
+                                                }
+                                            ],
+                                            "iconName": "user",
+                                            "iconAlign": "left",
+                                            "onClick": "{{navigateTo('User profile', {})}}",
+                                            "dynamicPropertyPathList": [
+                                                {
+                                                    "key": "onClick"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "isVisible": "true",
+                                            "animateLoading": true,
+                                            "text": "Користувачі",
+                                            "buttonColor": "#292929",
+                                            "buttonVariant": "PRIMARY",
+                                            "placement": "START",
+                                            "widgetName": "Button2Copy1Copy",
+                                            "isDisabled": false,
+                                            "isDefaultClickDisabled": true,
+                                            "recaptchaType": "V3",
+                                            "version": 1,
+                                            "classStyle": "",
+                                            "type": "BUTTON_WIDGET",
+                                            "hideCard": false,
+                                            "displayName": "Button",
+                                            "key": "es0kqj75gh",
+                                            "iconSVG": "/static/media/icon.cca02633.svg",
+                                            "widgetId": "fs24wg4633",
+                                            "renderMode": "CANVAS",
+                                            "isLoading": false,
+                                            "parentColumnSpace": 2.789306640625,
+                                            "parentRowSpace": 10,
+                                            "leftColumn": 6,
+                                            "rightColumn": 52,
+                                            "topRow": 10,
+                                            "bottomRow": 15,
+                                            "parentId": "1gzsmzdzgl",
+                                            "borderRadius": "ROUNDED",
+                                            "dynamicBindingPathList": [],
+                                            "dynamicTriggerPathList": [
+                                                {
+                                                    "key": "onClick"
+                                                }
+                                            ],
+                                            "iconName": "people",
+                                            "iconAlign": "left",
+                                            "onClick": "{{navigateTo('Users',{pageName: \"Users\"})}}",
+                                            "dynamicPropertyPathList": [
+                                                {
+                                                    "key": "isVisible"
+                                                },
+                                                {
+                                                    "key": "onClick"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "isVisible": true,
+                                            "animateLoading": true,
+                                            "text": "Контрагенти",
+                                            "buttonColor": "#292929",
+                                            "buttonVariant": "PRIMARY",
+                                            "placement": "START",
+                                            "widgetName": "Button1",
+                                            "isDisabled": false,
+                                            "isDefaultClickDisabled": true,
+                                            "recaptchaType": "V3",
+                                            "version": 1,
+                                            "classStyle": "",
+                                            "type": "BUTTON_WIDGET",
+                                            "hideCard": false,
+                                            "displayName": "Button",
+                                            "key": "pmw10edl6v",
+                                            "iconSVG": "/static/media/icon.cca02633.svg",
+                                            "widgetId": "6evxbx1w80",
+                                            "renderMode": "CANVAS",
+                                            "isLoading": false,
+                                            "parentColumnSpace": 4.298828125,
+                                            "parentRowSpace": 10,
+                                            "leftColumn": 6,
+                                            "rightColumn": 52,
+                                            "topRow": 15,
+                                            "bottomRow": 20,
+                                            "parentId": "1gzsmzdzgl",
+                                            "borderRadius": "ROUNDED",
+                                            "dynamicBindingPathList": [],
+                                            "dynamicTriggerPathList": [
+                                                {
+                                                    "key": "onClick"
+                                                }
+                                            ],
+                                            "onClick": "{{navigateTo('Counterparties',)}}",
+                                            "dynamicPropertyPathList": [],
+                                            "iconName": "align-left"
+                                        },
+                                        {
+                                            "isVisible": true,
+                                            "animateLoading": true,
+                                            "text": "Вийти",
+                                            "buttonColor": "#292929",
+                                            "buttonVariant": "PRIMARY",
+                                            "placement": "START",
+                                            "widgetName": "Button2Copy2Copy",
+                                            "isDisabled": false,
+                                            "isDefaultClickDisabled": true,
+                                            "recaptchaType": "V3",
+                                            "version": 1,
+                                            "classStyle": "",
+                                            "type": "BUTTON_WIDGET",
+                                            "hideCard": false,
+                                            "displayName": "Button",
+                                            "key": "es0kqj75gh",
+                                            "iconSVG": "/static/media/icon.cca02633.svg",
+                                            "widgetId": "nxpa7hf7vu",
+                                            "renderMode": "CANVAS",
+                                            "isLoading": false,
+                                            "parentColumnSpace": 2.789306640625,
+                                            "parentRowSpace": 10,
+                                            "leftColumn": 6,
+                                            "rightColumn": 52,
+                                            "topRow": 20,
+                                            "bottomRow": 25,
+                                            "parentId": "1gzsmzdzgl",
+                                            "borderRadius": "ROUNDED",
+                                            "dynamicBindingPathList": [],
+                                            "dynamicTriggerPathList": [
+                                                {
+                                                    "key": "onClick"
+                                                }
+                                            ],
+                                            "iconName": "log-out",
+                                            "iconAlign": "left",
+                                            "onClick": "{{navigateTo('Home', {})}}",
+                                            "dynamicPropertyPathList": [
+                                                {
+                                                    "key": "onClick"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "minHeight": 400,
+                                    "widgetId": "1gzsmzdzgl",
+                                    "renderMode": "CANVAS",
+                                    "isLoading": false,
+                                    "parentColumnSpace": 1,
+                                    "parentRowSpace": 1,
+                                    "leftColumn": 0,
+                                    "rightColumn": 436.5,
+                                    "topRow": 0,
+                                    "bottomRow": 390,
+                                    "parentId": "tymv6cjris"
+                                }
+                            ],
+                            "version": 1,
+                            "classStyle": "sidebar_menuWrapper ",
+                            "type": "CONTAINER_WIDGET",
+                            "hideCard": false,
+                            "displayName": "Container",
+                            "key": "7wseqbfdr3",
+                            "iconSVG": "/static/media/icon.1977dca3.svg",
+                            "isCanvas": true,
+                            "widgetId": "tymv6cjris",
+                            "renderMode": "CANVAS",
+                            "isLoading": false,
+                            "parentColumnSpace": 18.1875,
+                            "parentRowSpace": 10,
+                            "leftColumn": 2,
+                            "rightColumn": 63,
+                            "topRow": 51,
+                            "bottomRow": 78,
+                            "parentId": "p71ikl65rn",
+                            "dynamicBindingPathList": [],
+                            "dynamicTriggerPathList": []
+                        }
+                    ],
+                    "minHeight": 400,
+                    "widgetId": "p71ikl65rn",
+                    "renderMode": "CANVAS",
+                    "isLoading": false,
+                    "parentColumnSpace": 1,
+                    "parentRowSpace": 1,
+                    "leftColumn": 0,
+                    "rightColumn": 557.625,
+                    "topRow": 0,
+                    "bottomRow": 800,
+                    "parentId": "fwf1s0p5xr"
+                }
+            ],
+            "version": 1,
+            "type": "FUNCTION_WIDGET",
+            "hideCard": false,
+            "displayName": "Function",
+            "key": "4vyeqr9nef",
+            "iconSVG": "/static/media/icon.1977dca3.svg",
+            "isCanvas": true,
+            "widgetId": "fwf1s0p5xr",
+            "renderMode": "CANVAS",
+            "isLoading": false,
+            "parentColumnSpace": 23.234375,
+            "parentRowSpace": 10,
+            "leftColumn": 0,
+            "rightColumn": 10,
+            "topRow": 0,
+            "bottomRow": 83,
+            "parentId": "0",
+            "dynamicBindingPathList": [],
+            "dynamicTriggerPathList": [],
+            "classStyle": "sidebar"
+        }
+    ],
+    "version": "V1",
+    "isShowPlatformTag": false,
+    "gitApplicationMetadata": {
+        "browserSupportedRemoteUrl": "https://github.com/UBOS-Asset-Store/builders_crm_ui",
+        "defaultApplicationId": "jetsondashboard",
+        "defaultBranchName": "main",
+        "isRepoPrivate": true,
+        "remoteUrl": "git@github.com:UBOS-Asset-Store/builders_crm_ui.git",
+        "repoName": "builders_crm_ui"
+    }
+}

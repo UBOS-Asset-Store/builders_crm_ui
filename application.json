@@ -5,7 +5,7 @@
     "organizationId": "Org",
     "isPublic": true,
     "createdAt": "2023-03-02T13:50:57.853Z",
-    "updatedAt": "2024-08-09T16:43:45.026Z",
+    "updatedAt": "2024-08-23T14:33:06.067Z",
     "deleted": false,
     "pages": [
         {
@@ -93,14 +93,14 @@
     ],
     "global_setting": {
         "favicon": "",
-        "title": "Visia",
-        "css": "https://prodnr-650e926d920d771100000117.ubos.tech/css"
+        "title": "builders CRM",
+        "css": "${env.get(\"nr\")}/css"
     },
     "lastDeployedAt": "2022-10-19T15:59:36.363Z",
     "is_custom_auth": true,
     "auth_mode_setting": {
         "login_id": "Home",
-        "auth_node": "https://${env.get(\"nr\")}/check_tokens",
+        "auth_node": "${env.get(\"nr\")}/check_tokens",
         "registry_id": "Registration",
         "other_pages": [
             "Home",
